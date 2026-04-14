@@ -9,7 +9,6 @@ I was a fan of the built-in "Auto" mode on macOS because windows never had this 
 
 The solution for that is LADM. It's a tiny app that keeps running in the background and reads the ambient light sensor on your Mac (the same one it uses to adjust the brightness of your screen). When the ambient light level falls below the configured value, LADM automatically switches the Mac into Dark Mode. When the ambient light level rises above the configured value, it goes back into Light mode. This does not happen instantaneously: in order to prevent flickering, the change in ambient light level must persist for a certain amount of time, which can also be configured in the app's settings.
 
-<img src="./Assets/screenshot3.png" width="497">
 
 # Compatibility
 
