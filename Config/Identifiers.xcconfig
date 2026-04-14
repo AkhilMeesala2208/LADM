@@ -1,0 +1,2 @@
+// Change to your reverse DNS to build locally without conflicts.
+LADM_BUNDLE_ID_PREFIX=com.akhilmeesala.

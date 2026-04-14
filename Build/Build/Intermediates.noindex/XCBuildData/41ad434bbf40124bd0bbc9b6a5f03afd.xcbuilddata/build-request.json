@@ -1,0 +1,66 @@
+{
+  "buildCommand" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildOnly"
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "e2216feeb8af4e91610adbc941f5795faca35b2aa1d9aeb6f476f695cc1a2204"
+    }
+  ],
+  "containerPath" : "/Users/akhilmeesala/LADM/LADM.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "dependencyScope" : "workspace",
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "hostTargetedPlatform" : null,
+      "platform" : "macosx",
+      "sdk" : "macosx26.4",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "arm64e",
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/akhilmeesala/LADM/Build/Build/Products",
+      "derivedDataPath" : "/Users/akhilmeesala/LADM/Build",
+      "indexDataStoreFolderPath" : "/Users/akhilmeesala/LADM/Build/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/akhilmeesala/LADM/Build/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Release",
+    "overrides" : {
+      "commandLine" : {
+        "table" : {
+          "AD_HOC_CODE_SIGNING_ALLOWED" : "YES",
+          "CODE_SIGN_IDENTITY" : "-",
+          "OTHER_CODE_SIGN_FLAGS" : "--deep"
+        }
+      },
+      "synthesized" : {
+        "table" : {
+          "ACTION" : "build",
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "YES"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

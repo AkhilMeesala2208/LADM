@@ -1,0 +1,31 @@
+{
+  "" : {
+    "const-values" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Release/LADM.build/Objects-normal/x86_64/LADM-primary.swiftconstvalues",
+    "dependencies" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Release/LADM.build/Objects-normal/x86_64/LADM-primary.d",
+    "diagnostics" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Release/LADM.build/Objects-normal/x86_64/LADM-primary.dia",
+    "emit-module-dependencies" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Release/LADM.build/Objects-normal/x86_64/LADM-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Release/LADM.build/Objects-normal/x86_64/LADM-primary-emit-module.dia",
+    "pch" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Release/LADM.build/Objects-normal/x86_64/LADM-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Release/LADM.build/Objects-normal/x86_64/LADM-primary.swiftdeps"
+  },
+  "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Release/LADM.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "index-unit-output-path" : "/LADM.build/Release/LADM.build/Objects-normal/x86_64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Release/LADM.build/Objects-normal/x86_64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Release/LADM.build/Objects-normal/x86_64/GeneratedAssetSymbols.o"
+  },
+  "/Users/akhilmeesala/LADM/LADM/Bootstrap/AppDelegate.swift" : {
+    "index-unit-output-path" : "/LADM.build/Release/LADM.build/Objects-normal/x86_64/AppDelegate.o",
+    "llvm-bc" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Release/LADM.build/Objects-normal/x86_64/AppDelegate.bc",
+    "object" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Release/LADM.build/Objects-normal/x86_64/AppDelegate.o"
+  },
+  "/Users/akhilmeesala/LADM/LADM/Views/SettingsView.swift" : {
+    "index-unit-output-path" : "/LADM.build/Release/LADM.build/Objects-normal/x86_64/SettingsView.o",
+    "llvm-bc" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Release/LADM.build/Objects-normal/x86_64/SettingsView.bc",
+    "object" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Release/LADM.build/Objects-normal/x86_64/SettingsView.o"
+  },
+  "/Users/akhilmeesala/LADM/LADM/Views/UnsupportedMacView.swift" : {
+    "index-unit-output-path" : "/LADM.build/Release/LADM.build/Objects-normal/x86_64/UnsupportedMacView.o",
+    "llvm-bc" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Release/LADM.build/Objects-normal/x86_64/UnsupportedMacView.bc",
+    "object" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Release/LADM.build/Objects-normal/x86_64/UnsupportedMacView.o"
+  }
+}

@@ -1,0 +1,10 @@
+framework module LADMCore {
+  umbrella header "LADMCore.h"
+  export *
+
+  module * { export * }
+}
+
+module LADMCore.__Swift {
+  exclude header "LADMCore-Swift.h"
+}

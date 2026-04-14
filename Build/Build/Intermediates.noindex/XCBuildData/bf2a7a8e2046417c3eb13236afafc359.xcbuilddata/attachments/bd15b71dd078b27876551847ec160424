@@ -1,0 +1,31 @@
+{
+  "" : {
+    "const-values" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Release/LADMCore.build/Objects-normal/x86_64/LADMCore-primary.swiftconstvalues",
+    "dependencies" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Release/LADMCore.build/Objects-normal/x86_64/LADMCore-primary.d",
+    "diagnostics" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Release/LADMCore.build/Objects-normal/x86_64/LADMCore-primary.dia",
+    "emit-module-dependencies" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Release/LADMCore.build/Objects-normal/x86_64/LADMCore-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Release/LADMCore.build/Objects-normal/x86_64/LADMCore-primary-emit-module.dia",
+    "pch" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Release/LADMCore.build/Objects-normal/x86_64/LADMCore-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Release/LADMCore.build/Objects-normal/x86_64/LADMCore-primary.swiftdeps"
+  },
+  "/Users/akhilmeesala/LADM/LADMCore/Source/AmbientLight/DMBAmbientLightSensorReader.swift" : {
+    "index-unit-output-path" : "/LADM.build/Release/LADMCore.build/Objects-normal/x86_64/DMBAmbientLightSensorReader.o",
+    "llvm-bc" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Release/LADMCore.build/Objects-normal/x86_64/DMBAmbientLightSensorReader.bc",
+    "object" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Release/LADMCore.build/Objects-normal/x86_64/DMBAmbientLightSensorReader.o"
+  },
+  "/Users/akhilmeesala/LADM/LADMCore/Source/Storage/DMBSettings.swift" : {
+    "index-unit-output-path" : "/LADM.build/Release/LADMCore.build/Objects-normal/x86_64/DMBSettings.o",
+    "llvm-bc" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Release/LADMCore.build/Objects-normal/x86_64/DMBSettings.bc",
+    "object" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Release/LADMCore.build/Objects-normal/x86_64/DMBSettings.o"
+  },
+  "/Users/akhilmeesala/LADM/LADMCore/Source/System/DMBSystemAppearanceSwitcher.swift" : {
+    "index-unit-output-path" : "/LADM.build/Release/LADMCore.build/Objects-normal/x86_64/DMBSystemAppearanceSwitcher.o",
+    "llvm-bc" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Release/LADMCore.build/Objects-normal/x86_64/DMBSystemAppearanceSwitcher.bc",
+    "object" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Release/LADMCore.build/Objects-normal/x86_64/DMBSystemAppearanceSwitcher.o"
+  },
+  "/Users/akhilmeesala/LADM/LADMCore/Source/Utilities/ClamshellStateChecker.swift" : {
+    "index-unit-output-path" : "/LADM.build/Release/LADMCore.build/Objects-normal/x86_64/ClamshellStateChecker.o",
+    "llvm-bc" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Release/LADMCore.build/Objects-normal/x86_64/ClamshellStateChecker.bc",
+    "object" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Release/LADMCore.build/Objects-normal/x86_64/ClamshellStateChecker.o"
+  }
+}

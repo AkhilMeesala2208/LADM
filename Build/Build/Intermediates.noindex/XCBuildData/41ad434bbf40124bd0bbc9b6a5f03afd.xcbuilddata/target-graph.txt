@@ -1,0 +1,4 @@
+Target dependency graph (2 targets)
+Target 'LADM' in project 'LADM'
+➜ Explicit dependency on target 'LADMCore' in project 'LADM'
+Target 'LADMCore' in project 'LADM' (no dependencies)

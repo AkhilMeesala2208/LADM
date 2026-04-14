@@ -1,0 +1,12 @@
+{
+  "/Users/akhilmeesala/LADM/LADM/Views/SettingsView.swift" : {
+    "abi-baseline-json" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Release/LADM.build/Objects-normal/x86_64/LADM.abi.json",
+    "const-values" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Release/LADM.build/Objects-normal/x86_64/LADM-primary.swiftconstvalues",
+    "dependencies" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Release/LADM.build/Objects-normal/x86_64/LADM-primary.d",
+    "diagnostics" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Release/LADM.build/Objects-normal/x86_64/LADM-primary.dia",
+    "objc-header" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Release/LADM.build/Objects-normal/x86_64/LADM-Swift.h",
+    "swiftdoc" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Release/LADM.build/Objects-normal/x86_64/LADM.swiftdoc",
+    "swiftmodule" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Release/LADM.build/Objects-normal/x86_64/LADM.swiftmodule",
+    "swiftsourceinfo" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Release/LADM.build/Objects-normal/x86_64/LADM.swiftsourceinfo"
+  }
+}

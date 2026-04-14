@@ -1,0 +1,23 @@
+{
+  "version": 0,
+  "use-external-names": false,
+  "case-sensitive": false,
+  "roots": [{
+    "type": "directory",
+    "name": "/Users/akhilmeesala/LADM/Build/Build/Products/Release/LADMCore.framework/Modules",
+    "contents": [{
+      "type": "file",
+      "name": "module.modulemap",
+      "external-contents": "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Release/LADMCore.build/unextended-module.modulemap",
+    }]
+    },
+    {
+    "type": "directory",
+    "name": "/Users/akhilmeesala/LADM/Build/Build/Products/Release/LADMCore.framework/Headers",
+    "contents": [{
+      "type": "file",
+      "name": "LADMCore-Swift.h",
+      "external-contents": "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Release/LADMCore.build/unextended-interface-header.h",
+    }]
+  }]
+}

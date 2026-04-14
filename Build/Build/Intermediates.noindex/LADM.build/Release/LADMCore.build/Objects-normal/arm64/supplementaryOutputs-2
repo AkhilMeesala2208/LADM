@@ -1,0 +1,12 @@
+{
+  "/Users/akhilmeesala/LADM/LADMCore/Source/AmbientLight/LADMAmbientLightSensorReader.swift" : {
+    "abi-baseline-json" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Release/LADMCore.build/Objects-normal/arm64/LADMCore.abi.json",
+    "const-values" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Release/LADMCore.build/Objects-normal/arm64/LADMCore-primary.swiftconstvalues",
+    "dependencies" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Release/LADMCore.build/Objects-normal/arm64/LADMCore-primary.d",
+    "diagnostics" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Release/LADMCore.build/Objects-normal/arm64/LADMCore-primary.dia",
+    "objc-header" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Release/LADMCore.build/Objects-normal/arm64/LADMCore-Swift.h",
+    "swiftdoc" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Release/LADMCore.build/Objects-normal/arm64/LADMCore.swiftdoc",
+    "swiftmodule" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Release/LADMCore.build/Objects-normal/arm64/LADMCore.swiftmodule",
+    "swiftsourceinfo" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Release/LADMCore.build/Objects-normal/arm64/LADMCore.swiftsourceinfo"
+  }
+}
