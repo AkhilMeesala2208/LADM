@@ -1,0 +1,49 @@
+{
+  "" : {
+    "diagnostics" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Debug/LADMCore.build/Objects-normal/arm64/LADMCore-primary.dia",
+    "emit-module-dependencies" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Debug/LADMCore.build/Objects-normal/arm64/LADMCore-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Debug/LADMCore.build/Objects-normal/arm64/LADMCore-primary-emit-module.dia",
+    "pch" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Debug/LADMCore.build/Objects-normal/arm64/LADMCore-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Debug/LADMCore.build/Objects-normal/arm64/LADMCore-primary.swiftdeps"
+  },
+  "/Users/akhilmeesala/LADM/LADMCore/Source/AmbientLight/LADMAmbientLightSensorReader.swift" : {
+    "const-values" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Debug/LADMCore.build/Objects-normal/arm64/LADMAmbientLightSensorReader.swiftconstvalues",
+    "dependencies" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Debug/LADMCore.build/Objects-normal/arm64/LADMAmbientLightSensorReader.d",
+    "diagnostics" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Debug/LADMCore.build/Objects-normal/arm64/LADMAmbientLightSensorReader.dia",
+    "index-unit-output-path" : "/LADM.build/Debug/LADMCore.build/Objects-normal/arm64/LADMAmbientLightSensorReader.o",
+    "llvm-bc" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Debug/LADMCore.build/Objects-normal/arm64/LADMAmbientLightSensorReader.bc",
+    "object" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Debug/LADMCore.build/Objects-normal/arm64/LADMAmbientLightSensorReader.o",
+    "swift-dependencies" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Debug/LADMCore.build/Objects-normal/arm64/LADMAmbientLightSensorReader.swiftdeps",
+    "swiftmodule" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Debug/LADMCore.build/Objects-normal/arm64/LADMAmbientLightSensorReader~partial.swiftmodule"
+  },
+  "/Users/akhilmeesala/LADM/LADMCore/Source/Storage/LADMSettings.swift" : {
+    "const-values" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Debug/LADMCore.build/Objects-normal/arm64/LADMSettings.swiftconstvalues",
+    "dependencies" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Debug/LADMCore.build/Objects-normal/arm64/LADMSettings.d",
+    "diagnostics" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Debug/LADMCore.build/Objects-normal/arm64/LADMSettings.dia",
+    "index-unit-output-path" : "/LADM.build/Debug/LADMCore.build/Objects-normal/arm64/LADMSettings.o",
+    "llvm-bc" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Debug/LADMCore.build/Objects-normal/arm64/LADMSettings.bc",
+    "object" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Debug/LADMCore.build/Objects-normal/arm64/LADMSettings.o",
+    "swift-dependencies" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Debug/LADMCore.build/Objects-normal/arm64/LADMSettings.swiftdeps",
+    "swiftmodule" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Debug/LADMCore.build/Objects-normal/arm64/LADMSettings~partial.swiftmodule"
+  },
+  "/Users/akhilmeesala/LADM/LADMCore/Source/System/LADMSystemAppearanceSwitcher.swift" : {
+    "const-values" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Debug/LADMCore.build/Objects-normal/arm64/LADMSystemAppearanceSwitcher.swiftconstvalues",
+    "dependencies" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Debug/LADMCore.build/Objects-normal/arm64/LADMSystemAppearanceSwitcher.d",
+    "diagnostics" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Debug/LADMCore.build/Objects-normal/arm64/LADMSystemAppearanceSwitcher.dia",
+    "index-unit-output-path" : "/LADM.build/Debug/LADMCore.build/Objects-normal/arm64/LADMSystemAppearanceSwitcher.o",
+    "llvm-bc" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Debug/LADMCore.build/Objects-normal/arm64/LADMSystemAppearanceSwitcher.bc",
+    "object" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Debug/LADMCore.build/Objects-normal/arm64/LADMSystemAppearanceSwitcher.o",
+    "swift-dependencies" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Debug/LADMCore.build/Objects-normal/arm64/LADMSystemAppearanceSwitcher.swiftdeps",
+    "swiftmodule" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Debug/LADMCore.build/Objects-normal/arm64/LADMSystemAppearanceSwitcher~partial.swiftmodule"
+  },
+  "/Users/akhilmeesala/LADM/LADMCore/Source/Utilities/ClamshellStateChecker.swift" : {
+    "const-values" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Debug/LADMCore.build/Objects-normal/arm64/ClamshellStateChecker.swiftconstvalues",
+    "dependencies" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Debug/LADMCore.build/Objects-normal/arm64/ClamshellStateChecker.d",
+    "diagnostics" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Debug/LADMCore.build/Objects-normal/arm64/ClamshellStateChecker.dia",
+    "index-unit-output-path" : "/LADM.build/Debug/LADMCore.build/Objects-normal/arm64/ClamshellStateChecker.o",
+    "llvm-bc" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Debug/LADMCore.build/Objects-normal/arm64/ClamshellStateChecker.bc",
+    "object" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Debug/LADMCore.build/Objects-normal/arm64/ClamshellStateChecker.o",
+    "swift-dependencies" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Debug/LADMCore.build/Objects-normal/arm64/ClamshellStateChecker.swiftdeps",
+    "swiftmodule" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Debug/LADMCore.build/Objects-normal/arm64/ClamshellStateChecker~partial.swiftmodule"
+  }
+}

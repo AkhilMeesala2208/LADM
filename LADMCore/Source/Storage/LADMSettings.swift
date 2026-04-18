@@ -12,6 +12,7 @@ import ServiceManagement
 public final class LADMSettings: ObservableObject {
     
     private struct Keys {
+        static let showMenuBarIcon = "showMenuBarIcon"
         static let darknessThreshold = "darknessThreshold"
         static let isChangeSystemAppearanceBasedOnAmbientLightEnabled = "isChangeSystemAppearanceBasedOnAmbientLightEnabled"
         static let darknessThresholdIntervalInSeconds = "darknessThresholdIntervalInSeconds"
@@ -20,9 +21,11 @@ public final class LADMSettings: ObservableObject {
         static let disableAppearanceChangeInClamshellMode = "disableAppearanceChangeInClamshellMode"
         static let enableImmediateChangeOnComputerWake = "enableImmediateChangeOnComputerWake"
         static let extraThresholdBeforeRevertingToLightMode = "extraThresholdBeforeRevertingToLightMode"
+        static let hasMigratedToPercentageScale = "hasMigratedToPercentageScale"
         
         static let defaultDarknessThreshold: Double = {
-            LADMAmbientLightSensor.hardwareUsesLegacySensor() ? 20.0 : 52.0
+            let defaultLux = LADMAmbientLightSensor.hardwareUsesLegacySensor() ? 20.0 : 52.0
+            return BrightnessMapper.percentage(from: defaultLux)
         }()
 
         static let defaultAmbientLightSmoothingConstant: Double = {
@@ -30,7 +33,11 @@ public final class LADMSettings: ObservableObject {
         }()
         
         static let defaultExtraThresholdBeforeRevertingToLightMode: Double = {
-            LADMAmbientLightSensor.hardwareUsesLegacySensor() ? 30.0 : 10.0
+            let defaultLux = LADMAmbientLightSensor.hardwareUsesLegacySensor() ? 20.0 : 52.0
+            let defaultExtraLux = LADMAmbientLightSensor.hardwareUsesLegacySensor() ? 30.0 : 10.0
+            let p1 = BrightnessMapper.percentage(from: defaultLux)
+            let p2 = BrightnessMapper.percentage(from: defaultLux + defaultExtraLux)
+            return p2 - p1
         }()
 
         static let defaultDarknessThresholdIntervalInSeconds = 60.0
@@ -44,7 +51,20 @@ public final class LADMSettings: ObservableObject {
         self.isPreviewing = isPreviewing
         self.defaults = defaults
         
+        if !defaults.bool(forKey: Keys.hasMigratedToPercentageScale) {
+            let oldLux = defaults.optionalDoubleValue(forKey: Keys.darknessThreshold) ?? (LADMAmbientLightSensor.hardwareUsesLegacySensor() ? 20.0 : 52.0)
+            let oldExtra = defaults.optionalDoubleValue(forKey: Keys.extraThresholdBeforeRevertingToLightMode) ?? (LADMAmbientLightSensor.hardwareUsesLegacySensor() ? 30.0 : 10.0)
+            
+            let percentage = BrightnessMapper.percentage(from: oldLux)
+            let extraPercentage = BrightnessMapper.percentage(from: oldLux + oldExtra) - percentage
+            
+            defaults.set(percentage, forKey: Keys.darknessThreshold)
+            defaults.set(extraPercentage, forKey: Keys.extraThresholdBeforeRevertingToLightMode)
+            defaults.set(true, forKey: Keys.hasMigratedToPercentageScale)
+        }
+        
         defaults.register(defaults: [
+            Keys.showMenuBarIcon: true,
             Keys.darknessThreshold: Keys.defaultDarknessThreshold,
             Keys.isChangeSystemAppearanceBasedOnAmbientLightEnabled: true,
             Keys.darknessThresholdIntervalInSeconds: Keys.defaultDarknessThresholdIntervalInSeconds,
@@ -56,6 +76,8 @@ public final class LADMSettings: ObservableObject {
         
         self.isChangeSystemAppearanceBasedOnAmbientLightEnabled = defaults.bool(forKey: Keys.isChangeSystemAppearanceBasedOnAmbientLightEnabled)
         self.hasLaunchedAppBefore = defaults.bool(forKey: Keys.hasLaunchedAppBefore)
+        
+        self.showMenuBarIcon = defaults.bool(forKey: Keys.showMenuBarIcon)
         self.darknessThreshold = defaults.optionalDoubleValue(forKey: Keys.darknessThreshold) ?? Keys.defaultDarknessThreshold
         self.darknessThresholdIntervalInSeconds = defaults.optionalDoubleValue(forKey: Keys.darknessThresholdIntervalInSeconds) ?? Keys.defaultDarknessThresholdIntervalInSeconds
         self.ambientLightSmoothingConstant = defaults.optionalDoubleValue(forKey: Keys.ambientLightSmoothingConstant) ?? Keys.defaultAmbientLightSmoothingConstant
@@ -148,6 +170,17 @@ public final class LADMSettings: ObservableObject {
         }
     }
     
+    // MARK: - Menu Bar
+    
+    @Published public var showMenuBarIcon: Bool {
+        didSet {
+            defaults.set(
+                showMenuBarIcon,
+                forKey: Keys.showMenuBarIcon
+            )
+        }
+    }
+
     // MARK: - Launch at login
     
     /// Checks whether the app is currently registered to launch at login.

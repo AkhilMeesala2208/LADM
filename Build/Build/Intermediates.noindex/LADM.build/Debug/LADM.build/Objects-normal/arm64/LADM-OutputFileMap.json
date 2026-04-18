@@ -1,0 +1,49 @@
+{
+  "" : {
+    "diagnostics" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Debug/LADM.build/Objects-normal/arm64/LADM-primary.dia",
+    "emit-module-dependencies" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Debug/LADM.build/Objects-normal/arm64/LADM-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Debug/LADM.build/Objects-normal/arm64/LADM-primary-emit-module.dia",
+    "pch" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Debug/LADM.build/Objects-normal/arm64/LADM-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Debug/LADM.build/Objects-normal/arm64/LADM-primary.swiftdeps"
+  },
+  "/Users/akhilmeesala/LADM/Bootstrap/AppDelegate.swift" : {
+    "const-values" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Debug/LADM.build/Objects-normal/arm64/AppDelegate.swiftconstvalues",
+    "dependencies" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Debug/LADM.build/Objects-normal/arm64/AppDelegate.d",
+    "diagnostics" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Debug/LADM.build/Objects-normal/arm64/AppDelegate.dia",
+    "index-unit-output-path" : "/LADM.build/Debug/LADM.build/Objects-normal/arm64/AppDelegate.o",
+    "llvm-bc" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Debug/LADM.build/Objects-normal/arm64/AppDelegate.bc",
+    "object" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Debug/LADM.build/Objects-normal/arm64/AppDelegate.o",
+    "swift-dependencies" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Debug/LADM.build/Objects-normal/arm64/AppDelegate.swiftdeps",
+    "swiftmodule" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Debug/LADM.build/Objects-normal/arm64/AppDelegate~partial.swiftmodule"
+  },
+  "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Debug/LADM.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Debug/LADM.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Debug/LADM.build/Objects-normal/arm64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Debug/LADM.build/Objects-normal/arm64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/LADM.build/Debug/LADM.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Debug/LADM.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Debug/LADM.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Debug/LADM.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Debug/LADM.build/Objects-normal/arm64/GeneratedAssetSymbols~partial.swiftmodule"
+  },
+  "/Users/akhilmeesala/LADM/Views/SettingsView.swift" : {
+    "const-values" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Debug/LADM.build/Objects-normal/arm64/SettingsView.swiftconstvalues",
+    "dependencies" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Debug/LADM.build/Objects-normal/arm64/SettingsView.d",
+    "diagnostics" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Debug/LADM.build/Objects-normal/arm64/SettingsView.dia",
+    "index-unit-output-path" : "/LADM.build/Debug/LADM.build/Objects-normal/arm64/SettingsView.o",
+    "llvm-bc" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Debug/LADM.build/Objects-normal/arm64/SettingsView.bc",
+    "object" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Debug/LADM.build/Objects-normal/arm64/SettingsView.o",
+    "swift-dependencies" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Debug/LADM.build/Objects-normal/arm64/SettingsView.swiftdeps",
+    "swiftmodule" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Debug/LADM.build/Objects-normal/arm64/SettingsView~partial.swiftmodule"
+  },
+  "/Users/akhilmeesala/LADM/Views/UnsupportedMacView.swift" : {
+    "const-values" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Debug/LADM.build/Objects-normal/arm64/UnsupportedMacView.swiftconstvalues",
+    "dependencies" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Debug/LADM.build/Objects-normal/arm64/UnsupportedMacView.d",
+    "diagnostics" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Debug/LADM.build/Objects-normal/arm64/UnsupportedMacView.dia",
+    "index-unit-output-path" : "/LADM.build/Debug/LADM.build/Objects-normal/arm64/UnsupportedMacView.o",
+    "llvm-bc" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Debug/LADM.build/Objects-normal/arm64/UnsupportedMacView.bc",
+    "object" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Debug/LADM.build/Objects-normal/arm64/UnsupportedMacView.o",
+    "swift-dependencies" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Debug/LADM.build/Objects-normal/arm64/UnsupportedMacView.swiftdeps",
+    "swiftmodule" : "/Users/akhilmeesala/LADM/Build/Build/Intermediates.noindex/LADM.build/Debug/LADM.build/Objects-normal/arm64/UnsupportedMacView~partial.swiftmodule"
+  }
+}

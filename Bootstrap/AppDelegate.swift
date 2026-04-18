@@ -8,17 +8,24 @@
 import Cocoa
 import SwiftUI
 import LADMCore
+import Combine
 import Sparkle
 
 @main
 class AppDelegate: NSObject, NSApplicationDelegate {
 
     var window: NSWindow!
+    private var statusItem: NSStatusItem!
+    private var popover: NSPopover!
+    private var globalEventMonitor: Any?
+    private var localEventMonitor: Any?
+    private var settingsObservation: AnyCancellable?
     
-    let settings = DMBSettings()
+    
+    let settings = LADMSettings()
 
-    lazy var switcher: DMBSystemAppearanceSwitcher = {
-        DMBSystemAppearanceSwitcher(settings: settings)
+    lazy var switcher: LADMSystemAppearanceSwitcher = {
+        LADMSystemAppearanceSwitcher(settings: settings)
     }()
     
     private var shouldShowUI: Bool {
@@ -32,6 +39,12 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     }
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
+        updateStatusItem()
+        
+        settingsObservation = settings.$showMenuBarIcon.sink { [weak self] _ in
+            self?.updateStatusItem()
+        }
+        
         if shouldShowUI {
             settings.hasLaunchedAppBefore = true
             showSettingsWindow(nil)
@@ -47,7 +60,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         )
     }
     
-    private lazy var sensorReader = DMBAmbientLightSensorReader(frequency: .realtime)
+    private lazy var sensorReader = LADMAmbientLightSensorReader(frequency: .realtime)
 
     @IBAction func showSettingsWindow(_ sender: Any?) {
         NSApp.setActivationPolicy(.regular)
@@ -139,6 +152,68 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         shouldSkipTerminationConfirmation = true
     }
 
+    // MARK: - Menu Bar Popover Logic
+    
+    private func updateStatusItem() {
+        if settings.showMenuBarIcon {
+            if statusItem == nil {
+                statusItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.squareLength)
+                if let button = statusItem.button {
+                    button.image = NSImage(systemSymbolName: "sun.max.fill", accessibilityDescription: "LADM")
+                    button.action = #selector(togglePopover(_:))
+                    button.target = self
+                }
+                
+                if popover == nil {
+                    let popoverView = MenuBarPopoverView(openSettingsAction: { [weak self] in
+                        guard let self = self else { return }
+                        self.closePopover(sender: nil)
+                        self.showSettingsWindow(nil)
+                    })
+                    .environmentObject(sensorReader)
+                    .environmentObject(settings)
+                    
+                    popover = NSPopover()
+                    popover.contentSize = NSSize(width: 280, height: 180)
+                    popover.behavior = .transient
+                    popover.contentViewController = NSHostingController(rootView: popoverView)
+                }
+            }
+        } else {
+            if let targetStatusItem = statusItem {
+                NSStatusBar.system.removeStatusItem(targetStatusItem)
+                statusItem = nil
+            }
+        }
+    }
+    
+    @objc private func togglePopover(_ sender: AnyObject?) {
+        if popover.isShown {
+            closePopover(sender: sender)
+        } else {
+            showPopover(sender: sender)
+        }
+    }
+    
+    private func showPopover(sender: AnyObject?) {
+        if let button = statusItem.button {
+            popover.show(relativeTo: button.bounds, of: button, preferredEdge: NSRectEdge.minY)
+            
+            globalEventMonitor = NSEvent.addGlobalMonitorForEvents(matching: [.leftMouseDown, .rightMouseDown]) { [weak self] event in
+                if let strongSelf = self, strongSelf.popover.isShown {
+                    strongSelf.closePopover(sender: event)
+                }
+            }
+        }
+    }
+    
+    private func closePopover(sender: AnyObject?) {
+        popover.performClose(sender)
+        if let globalMonitor = globalEventMonitor {
+            NSEvent.removeMonitor(globalMonitor)
+            globalEventMonitor = nil
+        }
+    }
 }
 
 extension AppDelegate: NSWindowDelegate {
@@ -162,4 +237,60 @@ extension AppDelegate: SUUpdaterDelegate {
         shouldSkipTerminationConfirmation = false
     }
     
+}
+
+// MARK: - Popover SwiftUI View
+struct MenuBarPopoverView: View {
+    @EnvironmentObject var reader: LADMAmbientLightSensorReader
+    @EnvironmentObject var settings: LADMSettings
+    
+    var openSettingsAction: () -> Void
+    private let darknessInterval: ClosedRange<Double> = 0...100
+    
+    var body: some View {
+        VStack(alignment: .leading, spacing: 16) {
+            HStack {
+                Text("LADM Ambient Light")
+                    .font(.headline)
+                Spacer()
+                Button(action: openSettingsAction) {
+                    Image(systemName: "gearshape")
+                        .foregroundColor(.secondary)
+                }
+                .buttonStyle(PlainButtonStyle())
+                .frame(width: 24, height: 24)
+                .help("Settings")
+                
+                Button(action: { NSApplication.shared.terminate(nil) }) {
+                    Image(systemName: "power")
+                        .foregroundColor(.secondary)
+                }
+                .buttonStyle(PlainButtonStyle())
+                .frame(width: 24, height: 24)
+                .help("Quit LADM")
+            }
+            Divider()
+            VStack(alignment: .leading, spacing: 4) {
+                HStack(alignment: .firstTextBaseline) {
+                    Text("Current Ambient Light:")
+                    Spacer()
+                    Text("\(reader.ambientLightValue.formattedNoFractionDigits)%")
+                        .font(.system(.body, design: .monospaced))
+                }
+                
+                HStack(alignment: .firstTextBaseline) {
+                    Text("Go Dark Below:")
+                    Spacer()
+                    Text("\(settings.darknessThreshold.formattedNoFractionDigits)%")
+                        .font(.system(.body, design: .monospaced))
+                }
+            }
+            .font(.subheadline)
+            
+            Slider(value: $settings.darknessThreshold, in: darknessInterval)
+                .frame(maxWidth: .infinity)
+        }
+        .padding()
+        .frame(width: 280)
+    }
 }

@@ -2,248 +2,257 @@
 triple:          'arm64-apple-darwin'
 binary-path:     '/Users/akhilmeesala/LADM/Build/Build/Products/Release/LADMCore.framework/Versions/A/LADMCore'
 relocations:
-  - { offset: 0x1B3E76, size: 0x8, addend: 0x0, symName: _LADMCoreVersionString, symObjAddr: 0x0, symBinAddr: 0xC240, symSize: 0x0 }
-  - { offset: 0x1B3EAB, size: 0x8, addend: 0x0, symName: _LADMCoreVersionNumber, symObjAddr: 0x28, symBinAddr: 0xC268, symSize: 0x0 }
-  - { offset: 0x1B3EE8, size: 0x8, addend: 0x0, symName: '+[SharedFileList automaticallyNotifiesObserversOfItems]', symObjAddr: 0x0, symBinAddr: 0x16E0, symSize: 0x8 }
-  - { offset: 0x1B3FFB, size: 0x8, addend: 0x0, symName: '+[SharedFileList automaticallyNotifiesObserversOfItems]', symObjAddr: 0x0, symBinAddr: 0x16E0, symSize: 0x8 }
-  - { offset: 0x1B402E, size: 0x8, addend: 0x0, symName: '+[SharedFileList sessionLoginItems]', symObjAddr: 0x8, symBinAddr: 0x16E8, symSize: 0x24 }
-  - { offset: 0x1B4065, size: 0x8, addend: 0x0, symName: '-[SharedFileList initWithType:]', symObjAddr: 0x2C, symBinAddr: 0x170C, symSize: 0xC4 }
-  - { offset: 0x1B4153, size: 0x8, addend: 0x0, symName: _sharedFileListDidChange, symObjAddr: 0xF0, symBinAddr: 0x17D0, symSize: 0x8 }
-  - { offset: 0x1B4196, size: 0x8, addend: 0x0, symName: '-[SharedFileList dealloc]', symObjAddr: 0xF8, symBinAddr: 0x17D8, symSize: 0x74 }
-  - { offset: 0x1B4234, size: 0x8, addend: 0x0, symName: '-[SharedFileList items]', symObjAddr: 0x16C, symBinAddr: 0x184C, symSize: 0x18 }
-  - { offset: 0x1B426B, size: 0x8, addend: 0x0, symName: '-[SharedFileList _snapshot]', symObjAddr: 0x184, symBinAddr: 0x1864, symSize: 0x154 }
-  - { offset: 0x1B43AC, size: 0x8, addend: 0x0, symName: '-[SharedFileList _listDidChange]', symObjAddr: 0x2D8, symBinAddr: 0x19B8, symSize: 0xB0 }
-  - { offset: 0x1B4403, size: 0x8, addend: 0x0, symName: '-[SharedFileList containsItem:]', symObjAddr: 0x388, symBinAddr: 0x1A68, symSize: 0x8 }
-  - { offset: 0x1B4448, size: 0x8, addend: 0x0, symName: '-[SharedFileList addItem:]', symObjAddr: 0x390, symBinAddr: 0x1A70, symSize: 0x64 }
-  - { offset: 0x1B44EA, size: 0x8, addend: 0x0, symName: '-[SharedFileList removeItem:]', symObjAddr: 0x3F4, symBinAddr: 0x1AD4, symSize: 0x174 }
-  - { offset: 0x1B460A, size: 0x8, addend: 0x0, symName: '-[SharedFileList changeHandler]', symObjAddr: 0x568, symBinAddr: 0x1C48, symSize: 0x8 }
-  - { offset: 0x1B4641, size: 0x8, addend: 0x0, symName: '-[SharedFileList setChangeHandler:]', symObjAddr: 0x570, symBinAddr: 0x1C50, symSize: 0x8 }
-  - { offset: 0x1B4680, size: 0x8, addend: 0x0, symName: '-[SharedFileList .cxx_destruct]', symObjAddr: 0x578, symBinAddr: 0x1C58, symSize: 0x30 }
-  - { offset: 0x1B4732, size: 0x8, addend: 0x0, symName: '-[LADMAmbientLightSensor init]', symObjAddr: 0x0, symBinAddr: 0x1C88, symSize: 0x94 }
-  - { offset: 0x1B474E, size: 0x8, addend: 0x0, symName: '-[LADMAmbientLightSensor _initializeLegacySensorObject]', symObjAddr: 0x130, symBinAddr: 0x1DB8, symSize: 0x108 }
-  - { offset: 0x1B498E, size: 0x8, addend: 0x0, symName: '-[LADMAmbientLightSensor _readLegacy]', symObjAddr: 0x238, symBinAddr: 0x1EC0, symSize: 0x168 }
-  - { offset: 0x1B4ADF, size: 0x8, addend: 0x0, symName: '+[LADMAmbientLightSensor hardwareUsesLegacySensor]', symObjAddr: 0x4D0, symBinAddr: 0x2158, symSize: 0x30 }
-  - { offset: 0x1B4B09, size: 0x8, addend: 0x0, symName: _hardwareUsesLegacySensor._usesLegacySensor, symObjAddr: 0x6810, symBinAddr: 0x152A0, symSize: 0x0 }
-  - { offset: 0x1B4B1F, size: 0x8, addend: 0x0, symName: _hardwareUsesLegacySensor.onceToken, symObjAddr: 0x6818, symBinAddr: 0x152A8, symSize: 0x0 }
-  - { offset: 0x1B4C6E, size: 0x8, addend: 0x0, symName: '-[LADMAmbientLightSensor init]', symObjAddr: 0x0, symBinAddr: 0x1C88, symSize: 0x94 }
-  - { offset: 0x1B4CCF, size: 0x8, addend: 0x0, symName: '-[LADMAmbientLightSensor copyHIDEvent]', symObjAddr: 0x94, symBinAddr: 0x1D1C, symSize: 0x4C }
-  - { offset: 0x1B4D70, size: 0x8, addend: 0x0, symName: '-[LADMAmbientLightSensor update]', symObjAddr: 0xE0, symBinAddr: 0x1D68, symSize: 0x4 }
-  - { offset: 0x1B4DA1, size: 0x8, addend: 0x0, symName: '-[LADMAmbientLightSensor _read]', symObjAddr: 0xE4, symBinAddr: 0x1D6C, symSize: 0x4C }
-  - { offset: 0x1B4EA0, size: 0x8, addend: 0x0, symName: '-[LADMAmbientLightSensor _initializeLegacySensorObject].cold.1', symObjAddr: 0x71C, symBinAddr: 0xAF00, symSize: 0x24 }
-  - { offset: 0x1B4ED8, size: 0x8, addend: 0x0, symName: '-[LADMAmbientLightSensor _initializeLegacySensorObject].cold.3', symObjAddr: 0x770, symBinAddr: 0xAF54, symSize: 0x24 }
-  - { offset: 0x1B4F23, size: 0x8, addend: 0x0, symName: '-[LADMAmbientLightSensor _initializeLegacySensorObject].cold.2', symObjAddr: 0x740, symBinAddr: 0xAF24, symSize: 0x30 }
-  - { offset: 0x1B4FC2, size: 0x8, addend: 0x0, symName: '-[LADMAmbientLightSensor _readLegacy].cold.1', symObjAddr: 0x794, symBinAddr: 0xAF78, symSize: 0x24 }
-  - { offset: 0x1B4FFA, size: 0x8, addend: 0x0, symName: '-[LADMAmbientLightSensor setUpdateInterval:]', symObjAddr: 0x3A0, symBinAddr: 0x2028, symSize: 0x60 }
-  - { offset: 0x1B5040, size: 0x8, addend: 0x0, symName: '-[LADMAmbientLightSensor activate]', symObjAddr: 0x400, symBinAddr: 0x2088, symSize: 0x24 }
-  - { offset: 0x1B504B, size: 0x8, addend: 0x0, symName: '-[LADMAmbientLightSensor setUpdateInterval:].cold.1', symObjAddr: 0x7B8, symBinAddr: 0xAF9C, symSize: 0x28 }
-  - { offset: 0x1B5063, size: 0x8, addend: 0x0, symName: '-[LADMAmbientLightSensor activate]', symObjAddr: 0x400, symBinAddr: 0x2088, symSize: 0x24 }
-  - { offset: 0x1B5096, size: 0x8, addend: 0x0, symName: '-[LADMAmbientLightSensor invalidate]', symObjAddr: 0x424, symBinAddr: 0x20AC, symSize: 0x4 }
-  - { offset: 0x1B50C7, size: 0x8, addend: 0x0, symName: '-[LADMAmbientLightSensor _canGetHIDEvent]', symObjAddr: 0x428, symBinAddr: 0x20B0, symSize: 0x34 }
-  - { offset: 0x1B5130, size: 0x8, addend: 0x0, symName: '-[LADMAmbientLightSensor isPresent]', symObjAddr: 0x45C, symBinAddr: 0x20E4, symSize: 0x74 }
-  - { offset: 0x1B5194, size: 0x8, addend: 0x0, symName: '+[LADMAmbientLightSensor hardwareUsesLegacySensor].cold.1', symObjAddr: 0x7E0, symBinAddr: 0xAFC4, symSize: 0x14 }
-  - { offset: 0x1B51B0, size: 0x8, addend: 0x0, symName: '+[LADMAmbientLightSensor hardwareUsesLegacySensor].cold.1', symObjAddr: 0x7E0, symBinAddr: 0xAFC4, symSize: 0x14 }
-  - { offset: 0x1B51C2, size: 0x8, addend: 0x0, symName: '___50+[LADMAmbientLightSensor hardwareUsesLegacySensor]_block_invoke', symObjAddr: 0x500, symBinAddr: 0x2188, symSize: 0x24 }
-  - { offset: 0x1B51F7, size: 0x8, addend: 0x0, symName: '-[LADMAmbientLightSensor _tearDownUpdateTimer]', symObjAddr: 0x524, symBinAddr: 0x21AC, symSize: 0x40 }
-  - { offset: 0x1B522A, size: 0x8, addend: 0x0, symName: '-[LADMAmbientLightSensor _setupUpdateTimer]', symObjAddr: 0x564, symBinAddr: 0x21EC, symSize: 0x9C }
-  - { offset: 0x1B525D, size: 0x8, addend: 0x0, symName: '-[LADMAmbientLightSensor dealloc]', symObjAddr: 0x600, symBinAddr: 0x2288, symSize: 0x64 }
-  - { offset: 0x1B52BF, size: 0x8, addend: 0x0, symName: '-[LADMAmbientLightSensor value]', symObjAddr: 0x664, symBinAddr: 0x22EC, symSize: 0x8 }
-  - { offset: 0x1B52F4, size: 0x8, addend: 0x0, symName: '-[LADMAmbientLightSensor setValue:]', symObjAddr: 0x66C, symBinAddr: 0x22F4, symSize: 0x8 }
-  - { offset: 0x1B5332, size: 0x8, addend: 0x0, symName: '-[LADMAmbientLightSensor updateInterval]', symObjAddr: 0x674, symBinAddr: 0x22FC, symSize: 0x8 }
-  - { offset: 0x1B5367, size: 0x8, addend: 0x0, symName: '-[LADMAmbientLightSensor updateTimer]', symObjAddr: 0x67C, symBinAddr: 0x2304, symSize: 0x8 }
-  - { offset: 0x1B539E, size: 0x8, addend: 0x0, symName: '-[LADMAmbientLightSensor setUpdateTimer:]', symObjAddr: 0x684, symBinAddr: 0x230C, symSize: 0x30 }
-  - { offset: 0x1B53DF, size: 0x8, addend: 0x0, symName: '-[LADMAmbientLightSensor log]', symObjAddr: 0x6B4, symBinAddr: 0x233C, symSize: 0x8 }
-  - { offset: 0x1B5416, size: 0x8, addend: 0x0, symName: '-[LADMAmbientLightSensor setLog:]', symObjAddr: 0x6BC, symBinAddr: 0x2344, symSize: 0x30 }
-  - { offset: 0x1B5457, size: 0x8, addend: 0x0, symName: '-[LADMAmbientLightSensor .cxx_destruct]', symObjAddr: 0x6EC, symBinAddr: 0x2374, symSize: 0x30 }
-  - { offset: 0x1B548A, size: 0x8, addend: 0x0, symName: _OUTLINED_FUNCTION_0, symObjAddr: 0x7F4, symBinAddr: 0x23A4, symSize: 0x14 }
-  - { offset: 0x1B54A2, size: 0x8, addend: 0x0, symName: _OUTLINED_FUNCTION_1, symObjAddr: 0x808, symBinAddr: 0x23B8, symSize: 0x10 }
-  - { offset: 0x1B54BA, size: 0x8, addend: 0x0, symName: _OUTLINED_FUNCTION_2, symObjAddr: 0x818, symBinAddr: 0x23C8, symSize: 0x8 }
-  - { offset: 0x1B563E, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMAmbientLightSensorReaderC15UpdateFrequencyOSQAASQ2eeoiySbx_xtFZTW', symObjAddr: 0x78, symBinAddr: 0x2448, symSize: 0x14 }
-  - { offset: 0x1B578A, size: 0x8, addend: 0x0, symName: '_$sSo18SMAppServiceStatusVSQSCSQ2eeoiySbx_xtFZTW', symObjAddr: 0x1200, symBinAddr: 0x359C, symSize: 0x14 }
-  - { offset: 0x1B5A66, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMAmbientLightSensorReaderC07ambientC5ValueSdvpfP', symObjAddr: 0x1E4, symBinAddr: 0x25B4, symSize: 0x2C }
-  - { offset: 0x1B5A9A, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMAmbientLightSensorReaderC07ambientC5ValueSdvpACTK', symObjAddr: 0x2AC, symBinAddr: 0x2650, symSize: 0x68 }
-  - { offset: 0x1B5AD0, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMAmbientLightSensorReaderC07ambientC5ValueSdvpACTk', symObjAddr: 0x314, symBinAddr: 0x26B8, symSize: 0x78 }
-  - { offset: 0x1B5B0E, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMAmbientLightSensorReaderC08_ambientC5Value33_6846963B2BEF17DACB6D966954A8F801LL7Combine9PublishedVySdGvpfi', symObjAddr: 0x4DC, symBinAddr: 0x2880, symSize: 0x8 }
-  - { offset: 0x1B5B26, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMAmbientLightSensorReaderC17sensorObservation33_6846963B2BEF17DACB6D966954A8F801LL10Foundation010NSKeyValueG0CSgvpfi', symObjAddr: 0x7F4, symBinAddr: 0x2B98, symSize: 0x8 }
-  - { offset: 0x1B5B5A, size: 0x8, addend: 0x0, symName: '_$sSo22LADMAmbientLightSensorC5valueSdvpABTK', symObjAddr: 0xBDC, symBinAddr: 0x2F80, symSize: 0x28 }
-  - { offset: 0x1B5BFD, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMAmbientLightSensorReaderCMa', symObjAddr: 0xE2C, symBinAddr: 0x31D0, symSize: 0x38 }
-  - { offset: 0x1B5C11, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledNameV2, symObjAddr: 0xE64, symBinAddr: 0x3208, symSize: 0x50 }
-  - { offset: 0x1B5C25, size: 0x8, addend: 0x0, symName: _keypath_get_selector_value, symObjAddr: 0xEB4, symBinAddr: 0x3258, symSize: 0xC }
-  - { offset: 0x1B5C39, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMSystemAppearanceSwitcherC12cancellables33_E04F0D6E4F7DE564CBB0DA29DC3F060FLLShy7Combine14AnyCancellableCGvpfi', symObjAddr: 0x11E4, symBinAddr: 0x3588, symSize: 0xC }
-  - { offset: 0x1B5C51, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMSystemAppearanceSwitcherC09candidateC033_E04F0D6E4F7DE564CBB0DA29DC3F060FLLAC0C0OSgvpfi', symObjAddr: 0x11F0, symBinAddr: 0x3594, symSize: 0x8 }
-  - { offset: 0x1B5C74, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMAmbientLightSensorReaderC9frequency6sensorA2C15UpdateFrequencyO_So0bcD0CtcfcyAI_10Foundation24NSKeyValueObservedChangeVySdGtYbcfU_TA', symObjAddr: 0x1238, symBinAddr: 0x35D4, symSize: 0x8 }
-  - { offset: 0x1B5C88, size: 0x8, addend: 0x0, symName: '_$s2os9serialize_2atys5UInt8V_SpyAEGztF', symObjAddr: 0x124C, symBinAddr: 0x35E8, symSize: 0x10 }
-  - { offset: 0x1B5C9C, size: 0x8, addend: 0x0, symName: '_$s2os0A11LogInternal_3log4typeyAA12OSLogMessageV_So03OS_a1_D0CSo0a1_d1_E2_tatFyySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcXEfU_', symObjAddr: 0x125C, symBinAddr: 0x35F8, symSize: 0x34 }
-  - { offset: 0x1B5CB0, size: 0x8, addend: 0x0, symName: '_$s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_', symObjAddr: 0x1290, symBinAddr: 0x362C, symSize: 0x20 }
-  - { offset: 0x1B5CC8, size: 0x8, addend: 0x0, symName: '_$s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_', symObjAddr: 0x12B0, symBinAddr: 0x364C, symSize: 0x54 }
-  - { offset: 0x1B5D06, size: 0x8, addend: 0x0, symName: '_$s2os32getNullTerminatedUTF8PointerImpl_21storingStringOwnersInSVSS_SpyypGSgztF', symObjAddr: 0x1304, symBinAddr: 0x36A0, symSize: 0xC8 }
-  - { offset: 0x1B5D29, size: 0x8, addend: 0x0, symName: '_$ss11_StringGutsV16_deconstructUTF87scratchyXlSg5owner_xSi6lengthSb11usesScratchSb15allocatedMemorytSwSg_ts8_PointerRzlFSV_Tgq5', symObjAddr: 0x13CC, symBinAddr: 0x3768, symSize: 0x110 }
-  - { offset: 0x1B5D80, size: 0x8, addend: 0x0, symName: '_$ss11_StringGutsV23_allocateForDeconstructyXl5owner_SVSi6lengthtyF', symObjAddr: 0x14DC, symBinAddr: 0x3878, symSize: 0x64 }
-  - { offset: 0x1B5DCD, size: 0x8, addend: 0x0, symName: '_$ss32_copyCollectionToContiguousArrayys0dE0Vy7ElementQzGxSlRzlFSS8UTF8ViewV_Tgq5', symObjAddr: 0x1540, symBinAddr: 0x38DC, symSize: 0x134 }
-  - { offset: 0x1B5E41, size: 0x8, addend: 0x0, symName: '_$sSa6append10contentsOfyqd__n_t7ElementQyd__RszSTRd__lFs5UInt8V_SayAFGTgq5', symObjAddr: 0x1674, symBinAddr: 0x3A10, symSize: 0xF0 }
-  - { offset: 0x1B5F35, size: 0x8, addend: 0x0, symName: '_$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFs5UInt8V_Tgq5', symObjAddr: 0x1764, symBinAddr: 0x3B00, symSize: 0xF0 }
-  - { offset: 0x1B5FBC, size: 0x8, addend: 0x0, symName: '_$s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_', symObjAddr: 0x1854, symBinAddr: 0x3BF0, symSize: 0x10 }
-  - { offset: 0x1B5FD4, size: 0x8, addend: 0x0, symName: ___swift_destroy_boxed_opaque_existential_0, symObjAddr: 0x1864, symBinAddr: 0x3C00, symSize: 0x20 }
-  - { offset: 0x1B5FE8, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMAmbientLightSensorReaderC15UpdateFrequencyOSHAASQWb', symObjAddr: 0x1884, symBinAddr: 0x3C20, symSize: 0x4 }
-  - { offset: 0x1B5FFC, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMAmbientLightSensorReaderC15UpdateFrequencyOAESQAAWl', symObjAddr: 0x1888, symBinAddr: 0x3C24, symSize: 0x40 }
-  - { offset: 0x1B6010, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMAmbientLightSensorReaderC7Combine16ObservableObjectAA0H19WillChangePublisherAdEP_AD0K0PWT', symObjAddr: 0x18C8, symBinAddr: 0x3C64, symSize: 0xC }
-  - { offset: 0x1B6024, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMAmbientLightSensorReaderCMU', symObjAddr: 0x18D4, symBinAddr: 0x3C70, symSize: 0x8 }
-  - { offset: 0x1B6038, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMAmbientLightSensorReaderCMr', symObjAddr: 0x18DC, symBinAddr: 0x3C78, symSize: 0x9C }
-  - { offset: 0x1B604C, size: 0x8, addend: 0x0, symName: '_$s7Combine9PublishedVySdGMa', symObjAddr: 0x1978, symBinAddr: 0x3D14, symSize: 0x50 }
-  - { offset: 0x1B6060, size: 0x8, addend: 0x0, symName: ___swift_memcpy1_1, symObjAddr: 0x19C8, symBinAddr: 0x3D64, symSize: 0xC }
-  - { offset: 0x1B6074, size: 0x8, addend: 0x0, symName: ___swift_noop_void_return, symObjAddr: 0x19D4, symBinAddr: 0x3D70, symSize: 0x4 }
-  - { offset: 0x1B6088, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMAmbientLightSensorReaderC15UpdateFrequencyOwet', symObjAddr: 0x19D8, symBinAddr: 0x3D74, symSize: 0x90 }
-  - { offset: 0x1B609C, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMAmbientLightSensorReaderC15UpdateFrequencyOwst', symObjAddr: 0x1A68, symBinAddr: 0x3E04, symSize: 0xB0 }
-  - { offset: 0x1B60B0, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMAmbientLightSensorReaderC15UpdateFrequencyOwug', symObjAddr: 0x1B18, symBinAddr: 0x3EB4, symSize: 0x8 }
-  - { offset: 0x1B60C4, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMAmbientLightSensorReaderC15UpdateFrequencyOwup', symObjAddr: 0x1B20, symBinAddr: 0x3EBC, symSize: 0x4 }
-  - { offset: 0x1B60D8, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMAmbientLightSensorReaderC15UpdateFrequencyOwui', symObjAddr: 0x1B24, symBinAddr: 0x3EC0, symSize: 0x8 }
-  - { offset: 0x1B60EC, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMAmbientLightSensorReaderC15UpdateFrequencyOMa', symObjAddr: 0x1B2C, symBinAddr: 0x3EC8, symSize: 0x10 }
-  - { offset: 0x1B6100, size: 0x8, addend: 0x0, symName: '_$sypWOc', symObjAddr: 0x1B3C, symBinAddr: 0x3ED8, symSize: 0x3C }
-  - { offset: 0x1B6120, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMAmbientLightSensorReaderC15UpdateFrequencyO8rawValueAESgSd_tcfC', symObjAddr: 0x1C, symBinAddr: 0x23EC, symSize: 0x48 }
-  - { offset: 0x1B613E, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMAmbientLightSensorReaderC15UpdateFrequencyO8rawValueSdvg', symObjAddr: 0x64, symBinAddr: 0x2434, symSize: 0x14 }
-  - { offset: 0x1B61A7, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMAmbientLightSensorReaderC15UpdateFrequencyOSHAASH9hashValueSivgTW', symObjAddr: 0x8C, symBinAddr: 0x245C, symSize: 0x4C }
-  - { offset: 0x1B6277, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMAmbientLightSensorReaderC15UpdateFrequencyOSHAASH4hash4intoys6HasherVz_tFTW', symObjAddr: 0xD8, symBinAddr: 0x24A8, symSize: 0x34 }
-  - { offset: 0x1B62F3, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMAmbientLightSensorReaderC15UpdateFrequencyOSHAASH13_rawHashValue4seedS2i_tFTW', symObjAddr: 0x10C, symBinAddr: 0x24DC, symSize: 0x48 }
-  - { offset: 0x1B63BB, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMAmbientLightSensorReaderC15UpdateFrequencyOSYAASY8rawValuexSg03RawI0Qz_tcfCTW', symObjAddr: 0x154, symBinAddr: 0x2524, symSize: 0x58 }
-  - { offset: 0x1B63DC, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMAmbientLightSensorReaderC15UpdateFrequencyOSYAASY8rawValue03RawI0QzvgTW', symObjAddr: 0x1AC, symBinAddr: 0x257C, symSize: 0x18 }
-  - { offset: 0x1B6405, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMAmbientLightSensorReaderC02isD5ReadySbvg', symObjAddr: 0x1C4, symBinAddr: 0x2594, symSize: 0x20 }
-  - { offset: 0x1B649B, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMAmbientLightSensorReaderC07ambientC5ValueSdvg', symObjAddr: 0x23C, symBinAddr: 0x25E0, symSize: 0x70 }
-  - { offset: 0x1B64F8, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMAmbientLightSensorReaderC07ambientC5ValueSdvs', symObjAddr: 0x38C, symBinAddr: 0x2730, symSize: 0x74 }
-  - { offset: 0x1B6521, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMAmbientLightSensorReaderC07ambientC5ValueSdvM', symObjAddr: 0x400, symBinAddr: 0x27A4, symSize: 0x90 }
-  - { offset: 0x1B655A, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMAmbientLightSensorReaderC07ambientC5ValueSdvM.resume.0', symObjAddr: 0x490, symBinAddr: 0x2834, symSize: 0x4C }
-  - { offset: 0x1B657B, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMAmbientLightSensorReaderC08$ambientC5Value7Combine9PublishedV9PublisherVySd_Gvg', symObjAddr: 0x4E4, symBinAddr: 0x2888, symSize: 0x70 }
-  - { offset: 0x1B659A, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMAmbientLightSensorReaderC08$ambientC5Value7Combine9PublishedV9PublisherVySd_Gvs', symObjAddr: 0x554, symBinAddr: 0x28F8, symSize: 0xE0 }
-  - { offset: 0x1B65FC, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMAmbientLightSensorReaderC08$ambientC5Value7Combine9PublishedV9PublisherVySd_GvM', symObjAddr: 0x634, symBinAddr: 0x29D8, symSize: 0x104 }
-  - { offset: 0x1B6671, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMAmbientLightSensorReaderC08$ambientC5Value7Combine9PublishedV9PublisherVySd_GvM.resume.0', symObjAddr: 0x738, symBinAddr: 0x2ADC, symSize: 0xBC }
-  - { offset: 0x1B6751, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMAmbientLightSensorReaderC9frequency6sensorA2C15UpdateFrequencyO_So0bcD0CtcfC', symObjAddr: 0x7FC, symBinAddr: 0x2BA0, symSize: 0x1F8 }
-  - { offset: 0x1B67F1, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMAmbientLightSensorReaderC9frequency6sensorA2C15UpdateFrequencyO_So0bcD0Ctcfc', symObjAddr: 0x9F4, symBinAddr: 0x2D98, symSize: 0x1E8 }
-  - { offset: 0x1B68A4, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMAmbientLightSensorReaderC9frequency6sensorA2C15UpdateFrequencyO_So0bcD0CtcfcyAI_10Foundation24NSKeyValueObservedChangeVySdGtYbcfU_', symObjAddr: 0xC04, symBinAddr: 0x2FA8, symSize: 0x114 }
-  - { offset: 0x1B6923, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMAmbientLightSensorReaderC8activateyyF', symObjAddr: 0xD18, symBinAddr: 0x30BC, symSize: 0x114 }
-  - { offset: 0x1B6A5A, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMAmbientLightSensorReaderC10invalidateyyF', symObjAddr: 0xEC0, symBinAddr: 0x3264, symSize: 0x118 }
-  - { offset: 0x1B6B91, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMAmbientLightSensorReaderC6updateyyF', symObjAddr: 0xFD8, symBinAddr: 0x337C, symSize: 0x10 }
-  - { offset: 0x1B6BB4, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMAmbientLightSensorReaderCfd', symObjAddr: 0xFE8, symBinAddr: 0x338C, symSize: 0x94 }
-  - { offset: 0x1B6BE7, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMAmbientLightSensorReaderCfD', symObjAddr: 0x107C, symBinAddr: 0x3420, symSize: 0xA0 }
-  - { offset: 0x1B6C22, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMAmbientLightSensorReaderC7Combine16ObservableObjectAadEP16objectWillChange0hjK9PublisherQzvgTW', symObjAddr: 0x111C, symBinAddr: 0x34C0, symSize: 0x28 }
-  - { offset: 0x1B6C65, size: 0x8, addend: 0x0, symName: '_$sSo18SMAppServiceStatusVSYSCSY8rawValue03RawE0QzvgTW', symObjAddr: 0x1240, symBinAddr: 0x35DC, symSize: 0xC }
-  - { offset: 0x1B76D3, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC20hasLaunchedAppBeforeSbvpfF', symObjAddr: 0x7A0, symBinAddr: 0x4668, symSize: 0x2C }
-  - { offset: 0x1B7707, size: 0x8, addend: 0x0, symName: '_$sSo14SharedFileListCIegg_ABIeyBy_TR', symObjAddr: 0xF9C, symBinAddr: 0x4E38, symSize: 0x4C }
-  - { offset: 0x1B7726, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC50isChangeSystemAppearanceBasedOnAmbientLightEnabledSbvpACTk', symObjAddr: 0x12F4, symBinAddr: 0x5164, symSize: 0x24 }
-  - { offset: 0x1B773A, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC17darknessThresholdSdvpACTk', symObjAddr: 0x1610, symBinAddr: 0x5454, symSize: 0x24 }
-  - { offset: 0x1B774E, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC34darknessThresholdIntervalInSecondsSdvpACTk', symObjAddr: 0x1904, symBinAddr: 0x5748, symSize: 0x24 }
-  - { offset: 0x1B7762, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC29ambientLightSmoothingConstantSdvpACTk', symObjAddr: 0x1BF4, symBinAddr: 0x5A38, symSize: 0x24 }
-  - { offset: 0x1B7776, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC40extraThresholdBeforeRevertingToLightModeSdvpACTk', symObjAddr: 0x1FB0, symBinAddr: 0x5DF4, symSize: 0x24 }
-  - { offset: 0x1B778A, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC22isLaunchAtLoginEnabledSbvpACTk', symObjAddr: 0x26FC, symBinAddr: 0x64DC, symSize: 0xC8 }
-  - { offset: 0x1B77C3, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFSS_Tg5', symObjAddr: 0x2E78, symBinAddr: 0x6B74, symSize: 0x64 }
-  - { offset: 0x1B7811, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFSS_Tg5', symObjAddr: 0x2EDC, symBinAddr: 0x6BD8, symSize: 0xAC }
-  - { offset: 0x1B78EC, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC10forPreview8defaultsACSb_So14NSUserDefaultsCtcfcySo14SharedFileListCcfU_TA', symObjAddr: 0x3218, symBinAddr: 0x6F14, symSize: 0x8 }
-  - { offset: 0x1B7900, size: 0x8, addend: 0x0, symName: _block_copy_helper, symObjAddr: 0x3220, symBinAddr: 0x6F1C, symSize: 0x14 }
-  - { offset: 0x1B7914, size: 0x8, addend: 0x0, symName: _block_destroy_helper, symObjAddr: 0x3234, symBinAddr: 0x6F30, symSize: 0x8 }
-  - { offset: 0x1B795F, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsCMU', symObjAddr: 0x3420, symBinAddr: 0x7110, symSize: 0x8 }
-  - { offset: 0x1B7973, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsCMa', symObjAddr: 0x3428, symBinAddr: 0x7118, symSize: 0x38 }
-  - { offset: 0x1B7987, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsCMr', symObjAddr: 0x3460, symBinAddr: 0x7150, symSize: 0xC8 }
-  - { offset: 0x1B799B, size: 0x8, addend: 0x0, symName: '_$sypSgWOh', symObjAddr: 0x356C, symBinAddr: 0x725C, symSize: 0x48 }
-  - { offset: 0x1B79AF, size: 0x8, addend: 0x0, symName: '_$sSo8NSNumberCMa', symObjAddr: 0x35B4, symBinAddr: 0x72A4, symSize: 0x44 }
-  - { offset: 0x1B79C3, size: 0x8, addend: 0x0, symName: '_$sSS_yptWOc', symObjAddr: 0x35F8, symBinAddr: 0x72E8, symSize: 0x50 }
-  - { offset: 0x1B79D7, size: 0x8, addend: 0x0, symName: '_$sypWOb', symObjAddr: 0x3648, symBinAddr: 0x7338, symSize: 0x10 }
-  - { offset: 0x1B7A1B, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC4Keys33_F77CD0538F02722582ED7BF00AFF0FE7LLV24defaultDarknessThreshold_WZ', symObjAddr: 0x0, symBinAddr: 0x3F18, symSize: 0x3C }
-  - { offset: 0x1B7A4C, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC4Keys33_F77CD0538F02722582ED7BF00AFF0FE7LLV36defaultAmbientLightSmoothingConstant_WZ', symObjAddr: 0x3C, symBinAddr: 0x3F54, symSize: 0x38 }
-  - { offset: 0x1B7A7D, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC4Keys33_F77CD0538F02722582ED7BF00AFF0FE7LLV47defaultExtraThresholdBeforeRevertingToLightMode_WZ', symObjAddr: 0x74, symBinAddr: 0x3F8C, symSize: 0x38 }
-  - { offset: 0x1B7AB2, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC10forPreview8defaultsACSb_So14NSUserDefaultsCtcfC', symObjAddr: 0xAC, symBinAddr: 0x3FC4, symSize: 0x4C }
-  - { offset: 0x1B7B92, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC10forPreview8defaultsACSb_So14NSUserDefaultsCtcfc', symObjAddr: 0xF8, symBinAddr: 0x4010, symSize: 0x560 }
-  - { offset: 0x1B7DE8, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC50isChangeSystemAppearanceBasedOnAmbientLightEnabledSbvs', symObjAddr: 0x6A8, symBinAddr: 0x4570, symSize: 0xF8 }
-  - { offset: 0x1B7E72, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC20hasLaunchedAppBeforeSbvs', symObjAddr: 0x7CC, symBinAddr: 0x4694, symSize: 0xF8 }
-  - { offset: 0x1B7ED4, size: 0x8, addend: 0x0, symName: '_$sSo14NSUserDefaultsC8LADMCoreE19optionalDoubleValue33_F77CD0538F02722582ED7BF00AFF0FE7LL6forKeySdSgSS_tF', symObjAddr: 0x8C4, symBinAddr: 0x478C, symSize: 0xEC }
-  - { offset: 0x1B7F48, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC17darknessThresholdSdvs', symObjAddr: 0x9DC, symBinAddr: 0x4878, symSize: 0x100 }
-  - { offset: 0x1B7FD0, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC34darknessThresholdIntervalInSecondsSdvs', symObjAddr: 0xADC, symBinAddr: 0x4978, symSize: 0x100 }
-  - { offset: 0x1B8058, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC29ambientLightSmoothingConstantSdvs', symObjAddr: 0xBDC, symBinAddr: 0x4A78, symSize: 0x100 }
-  - { offset: 0x1B80E0, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC40extraThresholdBeforeRevertingToLightModeSdvs', symObjAddr: 0xCDC, symBinAddr: 0x4B78, symSize: 0x100 }
-  - { offset: 0x1B8140, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC22isLaunchAtLoginEnabledSbvs', symObjAddr: 0xDDC, symBinAddr: 0x4C78, symSize: 0xC4 }
-  - { offset: 0x1B81C2, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC10forPreview8defaultsACSb_So14NSUserDefaultsCtcfcySo14SharedFileListCcfU_', symObjAddr: 0xEA0, symBinAddr: 0x4D3C, symSize: 0xFC }
-  - { offset: 0x1B823E, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC20hasLaunchedAppBeforeSbvM', symObjAddr: 0x1028, symBinAddr: 0x4E98, symSize: 0x80 }
-  - { offset: 0x1B8278, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC20hasLaunchedAppBeforeSbvM.resume.0', symObjAddr: 0x10A8, symBinAddr: 0x4F18, symSize: 0x24 }
-  - { offset: 0x1B8299, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC21$hasLaunchedAppBefore7Combine9PublishedV9PublisherVySb_Gvs', symObjAddr: 0x10E8, symBinAddr: 0x4F58, symSize: 0xE0 }
-  - { offset: 0x1B82FB, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC21$hasLaunchedAppBefore7Combine9PublishedV9PublisherVySb_GvM', symObjAddr: 0x11C8, symBinAddr: 0x5038, symSize: 0x104 }
-  - { offset: 0x1B8370, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC50isChangeSystemAppearanceBasedOnAmbientLightEnabledSbvM', symObjAddr: 0x1318, symBinAddr: 0x5188, symSize: 0x80 }
-  - { offset: 0x1B83AA, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC50isChangeSystemAppearanceBasedOnAmbientLightEnabledSbvM.resume.0', symObjAddr: 0x1398, symBinAddr: 0x5208, symSize: 0x24 }
-  - { offset: 0x1B83CB, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC51$isChangeSystemAppearanceBasedOnAmbientLightEnabled7Combine9PublishedV9PublisherVySb_Gvs', symObjAddr: 0x13D8, symBinAddr: 0x5248, symSize: 0xE0 }
-  - { offset: 0x1B8428, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC51$isChangeSystemAppearanceBasedOnAmbientLightEnabled7Combine9PublishedV9PublisherVySb_GvM', symObjAddr: 0x14B8, symBinAddr: 0x5328, symSize: 0x104 }
-  - { offset: 0x1B849D, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC17darknessThresholdSdvM', symObjAddr: 0x1634, symBinAddr: 0x5478, symSize: 0x80 }
-  - { offset: 0x1B84D7, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC17darknessThresholdSdvM.resume.0', symObjAddr: 0x16B4, symBinAddr: 0x54F8, symSize: 0x24 }
-  - { offset: 0x1B84F8, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC18$darknessThreshold7Combine9PublishedV9PublisherVySd_Gvs', symObjAddr: 0x16F4, symBinAddr: 0x5538, symSize: 0xE0 }
-  - { offset: 0x1B855A, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC18$darknessThreshold7Combine9PublishedV9PublisherVySd_GvM', symObjAddr: 0x17D4, symBinAddr: 0x5618, symSize: 0x104 }
-  - { offset: 0x1B85CF, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC34darknessThresholdIntervalInSecondsSdvM', symObjAddr: 0x1928, symBinAddr: 0x576C, symSize: 0x80 }
-  - { offset: 0x1B8609, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC34darknessThresholdIntervalInSecondsSdvM.resume.0', symObjAddr: 0x19A8, symBinAddr: 0x57EC, symSize: 0x24 }
-  - { offset: 0x1B862A, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC35$darknessThresholdIntervalInSeconds7Combine9PublishedV9PublisherVySd_Gvs', symObjAddr: 0x19E8, symBinAddr: 0x582C, symSize: 0xE0 }
-  - { offset: 0x1B868C, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC35$darknessThresholdIntervalInSeconds7Combine9PublishedV9PublisherVySd_GvM', symObjAddr: 0x1AC8, symBinAddr: 0x590C, symSize: 0x104 }
-  - { offset: 0x1B8701, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC29ambientLightSmoothingConstantSdvM', symObjAddr: 0x1C18, symBinAddr: 0x5A5C, symSize: 0x80 }
-  - { offset: 0x1B873B, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC29ambientLightSmoothingConstantSdvM.resume.0', symObjAddr: 0x1C98, symBinAddr: 0x5ADC, symSize: 0x24 }
-  - { offset: 0x1B875C, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC30$ambientLightSmoothingConstant7Combine9PublishedV9PublisherVySd_Gvs', symObjAddr: 0x1CD8, symBinAddr: 0x5B1C, symSize: 0xE0 }
-  - { offset: 0x1B87B9, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC30$ambientLightSmoothingConstant7Combine9PublishedV9PublisherVySd_GvM', symObjAddr: 0x1DB8, symBinAddr: 0x5BFC, symSize: 0x104 }
-  - { offset: 0x1B882E, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC40extraThresholdBeforeRevertingToLightModeSdvM', symObjAddr: 0x1FD4, symBinAddr: 0x5E18, symSize: 0x80 }
-  - { offset: 0x1B8868, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC40extraThresholdBeforeRevertingToLightModeSdvM.resume.0', symObjAddr: 0x2054, symBinAddr: 0x5E98, symSize: 0x24 }
-  - { offset: 0x1B8889, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC41$extraThresholdBeforeRevertingToLightMode7Combine9PublishedV9PublisherVySd_Gvs', symObjAddr: 0x2094, symBinAddr: 0x5ED8, symSize: 0xE0 }
-  - { offset: 0x1B88E6, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC41$extraThresholdBeforeRevertingToLightMode7Combine9PublishedV9PublisherVySd_GvM', symObjAddr: 0x2174, symBinAddr: 0x5FB8, symSize: 0x104 }
-  - { offset: 0x1B898C, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC22isLaunchAtLoginEnabledSbvW', symObjAddr: 0x2278, symBinAddr: 0x60BC, symSize: 0x3A4 }
-  - { offset: 0x1B8A07, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC22isLaunchAtLoginEnabledSbvM', symObjAddr: 0x27C4, symBinAddr: 0x65A4, symSize: 0x80 }
-  - { offset: 0x1B8A41, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC22isLaunchAtLoginEnabledSbvM.resume.0', symObjAddr: 0x2844, symBinAddr: 0x6624, symSize: 0xD0 }
-  - { offset: 0x1B8A6E, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC23$isLaunchAtLoginEnabled7Combine9PublishedV9PublisherVySb_Gvs', symObjAddr: 0x29A4, symBinAddr: 0x6784, symSize: 0xE0 }
-  - { offset: 0x1B8ACB, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC23$isLaunchAtLoginEnabled7Combine9PublishedV9PublisherVySb_GvM', symObjAddr: 0x2A84, symBinAddr: 0x6864, symSize: 0x104 }
-  - { offset: 0x1B8B40, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsCfd', symObjAddr: 0x2C44, symBinAddr: 0x6968, symSize: 0x100 }
-  - { offset: 0x1B8B73, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsCfD', symObjAddr: 0x2D44, symBinAddr: 0x6A68, symSize: 0x10C }
-  - { offset: 0x1B8BC7, size: 0x8, addend: 0x0, symName: '_$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_ypTt0g5Tf4g_n', symObjAddr: 0x2F88, symBinAddr: 0x6C84, symSize: 0x10C }
-  - { offset: 0x1B8CCC, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC17isAppInLoginItems33_F77CD0538F02722582ED7BF00AFF0FE7LLSbvgZTf4d_n', symObjAddr: 0x3094, symBinAddr: 0x6D90, symSize: 0x160 }
-  - { offset: 0x1B9226, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMSystemAppearanceSwitcherC8activateyyFySdcfU_TA', symObjAddr: 0x63C, symBinAddr: 0x792C, symSize: 0x8 }
-  - { offset: 0x1B923A, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledNameAbstractV2, symObjAddr: 0x644, symBinAddr: 0x7934, symSize: 0x54 }
-  - { offset: 0x1B92A2, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMSystemAppearanceSwitcherC8activateyyFySdcfU0_TA', symObjAddr: 0x818, symBinAddr: 0x7B08, symSize: 0x18 }
-  - { offset: 0x1B92B6, size: 0x8, addend: 0x0, symName: '_$sIeg_IeyB_TR', symObjAddr: 0xECC, symBinAddr: 0x81BC, symSize: 0x2C }
-  - { offset: 0x1B92CE, size: 0x8, addend: 0x0, symName: '_$s10Foundation12NotificationVIeghn_So14NSNotificationCIeyBhy_TR', symObjAddr: 0xEF8, symBinAddr: 0x81E8, symSize: 0xA4 }
-  - { offset: 0x1B9369, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMSystemAppearanceSwitcherCMU', symObjAddr: 0x1CA8, symBinAddr: 0x8F64, symSize: 0x8 }
-  - { offset: 0x1B937D, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMSystemAppearanceSwitcherCMa', symObjAddr: 0x1CB0, symBinAddr: 0x8F6C, symSize: 0x38 }
-  - { offset: 0x1B9391, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMSystemAppearanceSwitcherCMr', symObjAddr: 0x1CE8, symBinAddr: 0x8FA4, symSize: 0x9C }
-  - { offset: 0x1B93A5, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMSystemAppearanceSwitcherC0C0Owet', symObjAddr: 0x1D94, symBinAddr: 0x9040, symSize: 0x90 }
-  - { offset: 0x1B93B9, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMSystemAppearanceSwitcherC0C0Owst', symObjAddr: 0x1E24, symBinAddr: 0x90D0, symSize: 0xB0 }
-  - { offset: 0x1B93CD, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMSystemAppearanceSwitcherC0C0OMa', symObjAddr: 0x1EE8, symBinAddr: 0x9180, symSize: 0x10 }
-  - { offset: 0x1B93E1, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMSystemAppearanceSwitcherC0C0OSHAASQWb', symObjAddr: 0x1EF8, symBinAddr: 0x9190, symSize: 0x4 }
-  - { offset: 0x1B93F5, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMSystemAppearanceSwitcherC0C0OAESQAAWl', symObjAddr: 0x1EFC, symBinAddr: 0x9194, symSize: 0x40 }
-  - { offset: 0x1B9409, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMSystemAppearanceSwitcherC011setupUpdateC6OnWake33_E04F0D6E4F7DE564CBB0DA29DC3F060FLLyyFy10Foundation12NotificationVYbcfU_TA', symObjAddr: 0x1F3C, symBinAddr: 0x91D4, symSize: 0x8 }
-  - { offset: 0x1B941D, size: 0x8, addend: 0x0, symName: _block_copy_helper, symObjAddr: 0x1F44, symBinAddr: 0x91DC, symSize: 0x14 }
-  - { offset: 0x1B9431, size: 0x8, addend: 0x0, symName: _block_destroy_helper, symObjAddr: 0x1F58, symBinAddr: 0x91F0, symSize: 0x8 }
-  - { offset: 0x1B9445, size: 0x8, addend: 0x0, symName: '_$sSo17OS_dispatch_queueCMa', symObjAddr: 0x1F60, symBinAddr: 0x91F8, symSize: 0x44 }
-  - { offset: 0x1B9459, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMSystemAppearanceSwitcherC011setupUpdateC6OnWake33_E04F0D6E4F7DE564CBB0DA29DC3F060FLLyyFy10Foundation12NotificationVYbcfU_yyScMYccfU_TA', symObjAddr: 0x1FA4, symBinAddr: 0x923C, symSize: 0x8 }
-  - { offset: 0x1B946D, size: 0x8, addend: 0x0, symName: '_$s8Dispatch0A13WorkItemFlagsVACs10SetAlgebraAAWl', symObjAddr: 0x1FAC, symBinAddr: 0x9244, symSize: 0x44 }
-  - { offset: 0x1B9481, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMSystemAppearanceSwitcherC20evaluateAmbientLight33_E04F0D6E4F7DE564CBB0DA29DC3F060FLL4withySd_tFyycfU_TA', symObjAddr: 0x2090, symBinAddr: 0x9308, symSize: 0xC }
-  - { offset: 0x1B94C4, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMSystemAppearanceSwitcherC0C0OSHAASH9hashValueSivgTW', symObjAddr: 0x14, symBinAddr: 0x7354, symSize: 0x44 }
-  - { offset: 0x1B9556, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMSystemAppearanceSwitcherC0C0OSHAASH4hash4intoys6HasherVz_tFTW', symObjAddr: 0x58, symBinAddr: 0x7398, symSize: 0x28 }
-  - { offset: 0x1B9594, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMSystemAppearanceSwitcherC0C0OSHAASH13_rawHashValue4seedS2i_tFTW', symObjAddr: 0x80, symBinAddr: 0x73C0, symSize: 0x40 }
-  - { offset: 0x1B9629, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMSystemAppearanceSwitcherC0C0OSYAASY8rawValuexSg03RawF0Qz_tcfCTW', symObjAddr: 0xC0, symBinAddr: 0x7400, symSize: 0x20 }
-  - { offset: 0x1B9652, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMSystemAppearanceSwitcherC0C0OSYAASY8rawValue03RawF0QzvgTW', symObjAddr: 0xE0, symBinAddr: 0x7420, symSize: 0xC }
-  - { offset: 0x1B967F, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMSystemAppearanceSwitcherC0C0Os23CustomStringConvertibleAAsAFP11descriptionSSvgTW', symObjAddr: 0xEC, symBinAddr: 0x742C, symSize: 0x30 }
-  - { offset: 0x1B96BF, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMSystemAppearanceSwitcherC8settings6readerAcA12LADMSettingsC_AA28LADMAmbientLightSensorReaderCtcfC', symObjAddr: 0x11C, symBinAddr: 0x745C, symSize: 0x4C }
-  - { offset: 0x1B96EC, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMSystemAppearanceSwitcherC8settings6readerAcA12LADMSettingsC_AA28LADMAmbientLightSensorReaderCtcfc', symObjAddr: 0x168, symBinAddr: 0x74A8, symSize: 0xDC }
-  - { offset: 0x1B9784, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMSystemAppearanceSwitcherC8activateyyF', symObjAddr: 0x294, symBinAddr: 0x7584, symSize: 0x320 }
-  - { offset: 0x1B9804, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMSystemAppearanceSwitcherC8activateyyFySdcfU_', symObjAddr: 0x5D8, symBinAddr: 0x78C8, symSize: 0x64 }
-  - { offset: 0x1B9864, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMSystemAppearanceSwitcherC19ambientLightChanged33_E04F0D6E4F7DE564CBB0DA29DC3F060FLL2toySd_tF', symObjAddr: 0x698, symBinAddr: 0x7988, symSize: 0x180 }
-  - { offset: 0x1B996D, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMSystemAppearanceSwitcherC011setupUpdateC6OnWake33_E04F0D6E4F7DE564CBB0DA29DC3F060FLLyyF', symObjAddr: 0x8F4, symBinAddr: 0x7BE4, symSize: 0x13C }
-  - { offset: 0x1B9991, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMSystemAppearanceSwitcherC011setupUpdateC6OnWake33_E04F0D6E4F7DE564CBB0DA29DC3F060FLLyyFy10Foundation12NotificationVYbcfU_', symObjAddr: 0xA30, symBinAddr: 0x7D20, symSize: 0x278 }
-  - { offset: 0x1B99E6, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMSystemAppearanceSwitcherC011setupUpdateC6OnWake33_E04F0D6E4F7DE564CBB0DA29DC3F060FLLyyFy10Foundation12NotificationVYbcfU_yyScMYccfU_', symObjAddr: 0xCA8, symBinAddr: 0x7F98, symSize: 0x54 }
-  - { offset: 0x1B9AE1, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMSystemAppearanceSwitcherC07attemptC12ChangeOnWake33_E04F0D6E4F7DE564CBB0DA29DC3F060FLLyyF', symObjAddr: 0xCFC, symBinAddr: 0x7FEC, symSize: 0x1D0 }
-  - { offset: 0x1B9C30, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMSystemAppearanceSwitcherC012changeSystemC033_E04F0D6E4F7DE564CBB0DA29DC3F060FLL2toyAC0C0O_tF', symObjAddr: 0xF9C, symBinAddr: 0x828C, symSize: 0x310 }
-  - { offset: 0x1B9EA9, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMSystemAppearanceSwitcherC30cancelScheduledApperanceChange33_E04F0D6E4F7DE564CBB0DA29DC3F060FLLyyF', symObjAddr: 0x12AC, symBinAddr: 0x859C, symSize: 0xDC }
-  - { offset: 0x1B9F21, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMSystemAppearanceSwitcherC20evaluateAmbientLight33_E04F0D6E4F7DE564CBB0DA29DC3F060FLL4withySd_tF', symObjAddr: 0x1388, symBinAddr: 0x8678, symSize: 0x784 }
-  - { offset: 0x1BA3BC, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMSystemAppearanceSwitcherC20evaluateAmbientLight33_E04F0D6E4F7DE564CBB0DA29DC3F060FLL4withySd_tFyycfU_', symObjAddr: 0x1B0C, symBinAddr: 0x8DFC, symSize: 0x5C }
-  - { offset: 0x1BA443, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMSystemAppearanceSwitcherCfd', symObjAddr: 0x1B68, symBinAddr: 0x8E58, symSize: 0x80 }
-  - { offset: 0x1BA47B, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMSystemAppearanceSwitcherCfD', symObjAddr: 0x1BE8, symBinAddr: 0x8ED8, symSize: 0x8C }
-  - { offset: 0x1BA5A6, size: 0x8, addend: 0x0, symName: '_$s8LADMCore21ClamshellStateCheckerCfD', symObjAddr: 0x0, symBinAddr: 0x9340, symSize: 0x10 }
-  - { offset: 0x1BA5F1, size: 0x8, addend: 0x0, symName: '_$s8LADMCore21ClamshellStateCheckerCMa', symObjAddr: 0x10, symBinAddr: 0x9350, symSize: 0x20 }
-  - { offset: 0x1BA605, size: 0x8, addend: 0x0, symName: '_$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCs5UInt8V_Tt1gq5', symObjAddr: 0x30, symBinAddr: 0x9370, symSize: 0x70 }
-  - { offset: 0x1BA6A6, size: 0x8, addend: 0x0, symName: '_$sSS44_fromNonContiguousUnsafeBitcastUTF8RepairingySS6result_Sb11repairsMadetxSlRzlFZ10Foundation4DataV_Tt0g5', symObjAddr: 0xA0, symBinAddr: 0x93E0, symSize: 0x68 }
-  - { offset: 0x1BA74F, size: 0x8, addend: 0x0, symName: '_$sSS8decoding2asSSx_q_mtcSlRzs16_UnicodeEncodingR_8CodeUnitQy_7ElementRtzr0_lufcSSSWXEfU0_', symObjAddr: 0x108, symBinAddr: 0x9448, symSize: 0x38 }
-  - { offset: 0x1BA784, size: 0x8, addend: 0x0, symName: '_$sSaySayxGqd__c7ElementQyd__RszSTRd__lufCs5UInt8V_10Foundation4DataVTt0g5', symObjAddr: 0x140, symBinAddr: 0x9480, symSize: 0x130 }
-  - { offset: 0x1BA8D3, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV15_RepresentationOWOy', symObjAddr: 0x750, symBinAddr: 0x9A40, symSize: 0x40 }
-  - { offset: 0x1BA8E7, size: 0x8, addend: 0x0, symName: '_$ss19_HasContiguousBytes_pSgWOh', symObjAddr: 0x790, symBinAddr: 0x9A80, symSize: 0x48 }
-  - { offset: 0x1BA8FB, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV15_RepresentationOWOe', symObjAddr: 0x7D8, symBinAddr: 0x9AC8, symSize: 0x40 }
-  - { offset: 0x1BA90F, size: 0x8, addend: 0x0, symName: '_$sS2SSysWl', symObjAddr: 0x818, symBinAddr: 0x9B08, symSize: 0x40 }
-  - { offset: 0x1BA923, size: 0x8, addend: 0x0, symName: '_$ss19_HasContiguousBytes_pWOb', symObjAddr: 0x858, symBinAddr: 0x9B48, symSize: 0x18 }
-  - { offset: 0x1BA937, size: 0x8, addend: 0x0, symName: ___swift_project_boxed_opaque_existential_1, symObjAddr: 0x870, symBinAddr: 0x9B60, symSize: 0x24 }
-  - { offset: 0x1BA957, size: 0x8, addend: 0x0, symName: '_$s8LADMCore21ClamshellStateCheckerCfD', symObjAddr: 0x0, symBinAddr: 0x9340, symSize: 0x10 }
-  - { offset: 0x1BAB02, size: 0x8, addend: 0x0, symName: '_$s8LADMCore21ClamshellStateCheckerC02isB6ClosedSbyFZTf4d_n', symObjAddr: 0x270, symBinAddr: 0x95B0, symSize: 0x490 }
+  - { offset: 0x1B3E76, size: 0x8, addend: 0x0, symName: _LADMCoreVersionString, symObjAddr: 0x0, symBinAddr: 0xC980, symSize: 0x0 }
+  - { offset: 0x1B3EAB, size: 0x8, addend: 0x0, symName: _LADMCoreVersionNumber, symObjAddr: 0x28, symBinAddr: 0xC9A8, symSize: 0x0 }
+  - { offset: 0x1B3EE8, size: 0x8, addend: 0x0, symName: '+[SharedFileList automaticallyNotifiesObserversOfItems]', symObjAddr: 0x0, symBinAddr: 0x16F0, symSize: 0x8 }
+  - { offset: 0x1B3FFB, size: 0x8, addend: 0x0, symName: '+[SharedFileList automaticallyNotifiesObserversOfItems]', symObjAddr: 0x0, symBinAddr: 0x16F0, symSize: 0x8 }
+  - { offset: 0x1B402E, size: 0x8, addend: 0x0, symName: '+[SharedFileList sessionLoginItems]', symObjAddr: 0x8, symBinAddr: 0x16F8, symSize: 0x24 }
+  - { offset: 0x1B4065, size: 0x8, addend: 0x0, symName: '-[SharedFileList initWithType:]', symObjAddr: 0x2C, symBinAddr: 0x171C, symSize: 0xC4 }
+  - { offset: 0x1B4153, size: 0x8, addend: 0x0, symName: _sharedFileListDidChange, symObjAddr: 0xF0, symBinAddr: 0x17E0, symSize: 0x8 }
+  - { offset: 0x1B4196, size: 0x8, addend: 0x0, symName: '-[SharedFileList dealloc]', symObjAddr: 0xF8, symBinAddr: 0x17E8, symSize: 0x74 }
+  - { offset: 0x1B4234, size: 0x8, addend: 0x0, symName: '-[SharedFileList items]', symObjAddr: 0x16C, symBinAddr: 0x185C, symSize: 0x18 }
+  - { offset: 0x1B426B, size: 0x8, addend: 0x0, symName: '-[SharedFileList _snapshot]', symObjAddr: 0x184, symBinAddr: 0x1874, symSize: 0x154 }
+  - { offset: 0x1B43AC, size: 0x8, addend: 0x0, symName: '-[SharedFileList _listDidChange]', symObjAddr: 0x2D8, symBinAddr: 0x19C8, symSize: 0xB0 }
+  - { offset: 0x1B4403, size: 0x8, addend: 0x0, symName: '-[SharedFileList containsItem:]', symObjAddr: 0x388, symBinAddr: 0x1A78, symSize: 0x8 }
+  - { offset: 0x1B4448, size: 0x8, addend: 0x0, symName: '-[SharedFileList addItem:]', symObjAddr: 0x390, symBinAddr: 0x1A80, symSize: 0x64 }
+  - { offset: 0x1B44EA, size: 0x8, addend: 0x0, symName: '-[SharedFileList removeItem:]', symObjAddr: 0x3F4, symBinAddr: 0x1AE4, symSize: 0x174 }
+  - { offset: 0x1B460A, size: 0x8, addend: 0x0, symName: '-[SharedFileList changeHandler]', symObjAddr: 0x568, symBinAddr: 0x1C58, symSize: 0x8 }
+  - { offset: 0x1B4641, size: 0x8, addend: 0x0, symName: '-[SharedFileList setChangeHandler:]', symObjAddr: 0x570, symBinAddr: 0x1C60, symSize: 0x8 }
+  - { offset: 0x1B4680, size: 0x8, addend: 0x0, symName: '-[SharedFileList .cxx_destruct]', symObjAddr: 0x578, symBinAddr: 0x1C68, symSize: 0x30 }
+  - { offset: 0x1B4732, size: 0x8, addend: 0x0, symName: '-[LADMAmbientLightSensor init]', symObjAddr: 0x0, symBinAddr: 0x1C98, symSize: 0x94 }
+  - { offset: 0x1B474E, size: 0x8, addend: 0x0, symName: '-[LADMAmbientLightSensor _initializeLegacySensorObject]', symObjAddr: 0x130, symBinAddr: 0x1DC8, symSize: 0x108 }
+  - { offset: 0x1B498E, size: 0x8, addend: 0x0, symName: '-[LADMAmbientLightSensor _readLegacy]', symObjAddr: 0x238, symBinAddr: 0x1ED0, symSize: 0x168 }
+  - { offset: 0x1B4ADF, size: 0x8, addend: 0x0, symName: '+[LADMAmbientLightSensor hardwareUsesLegacySensor]', symObjAddr: 0x4D0, symBinAddr: 0x2168, symSize: 0x30 }
+  - { offset: 0x1B4B09, size: 0x8, addend: 0x0, symName: _hardwareUsesLegacySensor._usesLegacySensor, symObjAddr: 0x6810, symBinAddr: 0x152D0, symSize: 0x0 }
+  - { offset: 0x1B4B1F, size: 0x8, addend: 0x0, symName: _hardwareUsesLegacySensor.onceToken, symObjAddr: 0x6818, symBinAddr: 0x152D8, symSize: 0x0 }
+  - { offset: 0x1B4C6E, size: 0x8, addend: 0x0, symName: '-[LADMAmbientLightSensor init]', symObjAddr: 0x0, symBinAddr: 0x1C98, symSize: 0x94 }
+  - { offset: 0x1B4CCF, size: 0x8, addend: 0x0, symName: '-[LADMAmbientLightSensor copyHIDEvent]', symObjAddr: 0x94, symBinAddr: 0x1D2C, symSize: 0x4C }
+  - { offset: 0x1B4D70, size: 0x8, addend: 0x0, symName: '-[LADMAmbientLightSensor update]', symObjAddr: 0xE0, symBinAddr: 0x1D78, symSize: 0x4 }
+  - { offset: 0x1B4DA1, size: 0x8, addend: 0x0, symName: '-[LADMAmbientLightSensor _read]', symObjAddr: 0xE4, symBinAddr: 0x1D7C, symSize: 0x4C }
+  - { offset: 0x1B4EA0, size: 0x8, addend: 0x0, symName: '-[LADMAmbientLightSensor _initializeLegacySensorObject].cold.1', symObjAddr: 0x71C, symBinAddr: 0xB62C, symSize: 0x24 }
+  - { offset: 0x1B4ED8, size: 0x8, addend: 0x0, symName: '-[LADMAmbientLightSensor _initializeLegacySensorObject].cold.3', symObjAddr: 0x770, symBinAddr: 0xB680, symSize: 0x24 }
+  - { offset: 0x1B4F23, size: 0x8, addend: 0x0, symName: '-[LADMAmbientLightSensor _initializeLegacySensorObject].cold.2', symObjAddr: 0x740, symBinAddr: 0xB650, symSize: 0x30 }
+  - { offset: 0x1B4FC2, size: 0x8, addend: 0x0, symName: '-[LADMAmbientLightSensor _readLegacy].cold.1', symObjAddr: 0x794, symBinAddr: 0xB6A4, symSize: 0x24 }
+  - { offset: 0x1B4FFA, size: 0x8, addend: 0x0, symName: '-[LADMAmbientLightSensor setUpdateInterval:]', symObjAddr: 0x3A0, symBinAddr: 0x2038, symSize: 0x60 }
+  - { offset: 0x1B5040, size: 0x8, addend: 0x0, symName: '-[LADMAmbientLightSensor activate]', symObjAddr: 0x400, symBinAddr: 0x2098, symSize: 0x24 }
+  - { offset: 0x1B504B, size: 0x8, addend: 0x0, symName: '-[LADMAmbientLightSensor setUpdateInterval:].cold.1', symObjAddr: 0x7B8, symBinAddr: 0xB6C8, symSize: 0x28 }
+  - { offset: 0x1B5063, size: 0x8, addend: 0x0, symName: '-[LADMAmbientLightSensor activate]', symObjAddr: 0x400, symBinAddr: 0x2098, symSize: 0x24 }
+  - { offset: 0x1B5096, size: 0x8, addend: 0x0, symName: '-[LADMAmbientLightSensor invalidate]', symObjAddr: 0x424, symBinAddr: 0x20BC, symSize: 0x4 }
+  - { offset: 0x1B50C7, size: 0x8, addend: 0x0, symName: '-[LADMAmbientLightSensor _canGetHIDEvent]', symObjAddr: 0x428, symBinAddr: 0x20C0, symSize: 0x34 }
+  - { offset: 0x1B5130, size: 0x8, addend: 0x0, symName: '-[LADMAmbientLightSensor isPresent]', symObjAddr: 0x45C, symBinAddr: 0x20F4, symSize: 0x74 }
+  - { offset: 0x1B5194, size: 0x8, addend: 0x0, symName: '+[LADMAmbientLightSensor hardwareUsesLegacySensor].cold.1', symObjAddr: 0x7E0, symBinAddr: 0xB6F0, symSize: 0x14 }
+  - { offset: 0x1B51B0, size: 0x8, addend: 0x0, symName: '+[LADMAmbientLightSensor hardwareUsesLegacySensor].cold.1', symObjAddr: 0x7E0, symBinAddr: 0xB6F0, symSize: 0x14 }
+  - { offset: 0x1B51C2, size: 0x8, addend: 0x0, symName: '___50+[LADMAmbientLightSensor hardwareUsesLegacySensor]_block_invoke', symObjAddr: 0x500, symBinAddr: 0x2198, symSize: 0x24 }
+  - { offset: 0x1B51F7, size: 0x8, addend: 0x0, symName: '-[LADMAmbientLightSensor _tearDownUpdateTimer]', symObjAddr: 0x524, symBinAddr: 0x21BC, symSize: 0x40 }
+  - { offset: 0x1B522A, size: 0x8, addend: 0x0, symName: '-[LADMAmbientLightSensor _setupUpdateTimer]', symObjAddr: 0x564, symBinAddr: 0x21FC, symSize: 0x9C }
+  - { offset: 0x1B525D, size: 0x8, addend: 0x0, symName: '-[LADMAmbientLightSensor dealloc]', symObjAddr: 0x600, symBinAddr: 0x2298, symSize: 0x64 }
+  - { offset: 0x1B52BF, size: 0x8, addend: 0x0, symName: '-[LADMAmbientLightSensor value]', symObjAddr: 0x664, symBinAddr: 0x22FC, symSize: 0x8 }
+  - { offset: 0x1B52F4, size: 0x8, addend: 0x0, symName: '-[LADMAmbientLightSensor setValue:]', symObjAddr: 0x66C, symBinAddr: 0x2304, symSize: 0x8 }
+  - { offset: 0x1B5332, size: 0x8, addend: 0x0, symName: '-[LADMAmbientLightSensor updateInterval]', symObjAddr: 0x674, symBinAddr: 0x230C, symSize: 0x8 }
+  - { offset: 0x1B5367, size: 0x8, addend: 0x0, symName: '-[LADMAmbientLightSensor updateTimer]', symObjAddr: 0x67C, symBinAddr: 0x2314, symSize: 0x8 }
+  - { offset: 0x1B539E, size: 0x8, addend: 0x0, symName: '-[LADMAmbientLightSensor setUpdateTimer:]', symObjAddr: 0x684, symBinAddr: 0x231C, symSize: 0x30 }
+  - { offset: 0x1B53DF, size: 0x8, addend: 0x0, symName: '-[LADMAmbientLightSensor log]', symObjAddr: 0x6B4, symBinAddr: 0x234C, symSize: 0x8 }
+  - { offset: 0x1B5416, size: 0x8, addend: 0x0, symName: '-[LADMAmbientLightSensor setLog:]', symObjAddr: 0x6BC, symBinAddr: 0x2354, symSize: 0x30 }
+  - { offset: 0x1B5457, size: 0x8, addend: 0x0, symName: '-[LADMAmbientLightSensor .cxx_destruct]', symObjAddr: 0x6EC, symBinAddr: 0x2384, symSize: 0x30 }
+  - { offset: 0x1B548A, size: 0x8, addend: 0x0, symName: _OUTLINED_FUNCTION_0, symObjAddr: 0x7F4, symBinAddr: 0x23B4, symSize: 0x14 }
+  - { offset: 0x1B54A2, size: 0x8, addend: 0x0, symName: _OUTLINED_FUNCTION_1, symObjAddr: 0x808, symBinAddr: 0x23C8, symSize: 0x10 }
+  - { offset: 0x1B54BA, size: 0x8, addend: 0x0, symName: _OUTLINED_FUNCTION_2, symObjAddr: 0x818, symBinAddr: 0x23D8, symSize: 0x8 }
+  - { offset: 0x1B564D, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMAmbientLightSensorReaderC15UpdateFrequencyOSQAASQ2eeoiySbx_xtFZTW', symObjAddr: 0xA0, symBinAddr: 0x2480, symSize: 0x14 }
+  - { offset: 0x1B5799, size: 0x8, addend: 0x0, symName: '_$sSo18SMAppServiceStatusVSQSCSQ2eeoiySbx_xtFZTW', symObjAddr: 0x1248, symBinAddr: 0x35F4, symSize: 0x14 }
+  - { offset: 0x1B5A9D, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMAmbientLightSensorReaderC07ambientC5ValueSdvpfP', symObjAddr: 0x20C, symBinAddr: 0x25EC, symSize: 0x2C }
+  - { offset: 0x1B5AD1, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMAmbientLightSensorReaderC07ambientC5ValueSdvpACTK', symObjAddr: 0x2D4, symBinAddr: 0x2688, symSize: 0x68 }
+  - { offset: 0x1B5B07, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMAmbientLightSensorReaderC07ambientC5ValueSdvpACTk', symObjAddr: 0x33C, symBinAddr: 0x26F0, symSize: 0x78 }
+  - { offset: 0x1B5B45, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMAmbientLightSensorReaderC08_ambientC5Value33_6846963B2BEF17DACB6D966954A8F801LL7Combine9PublishedVySdGvpfi', symObjAddr: 0x504, symBinAddr: 0x28B8, symSize: 0x8 }
+  - { offset: 0x1B5B5D, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMAmbientLightSensorReaderC17sensorObservation33_6846963B2BEF17DACB6D966954A8F801LL10Foundation010NSKeyValueG0CSgvpfi', symObjAddr: 0x81C, symBinAddr: 0x2BD0, symSize: 0x8 }
+  - { offset: 0x1B5B91, size: 0x8, addend: 0x0, symName: '_$sSo22LADMAmbientLightSensorC5valueSdvpABTK', symObjAddr: 0xC04, symBinAddr: 0x2FB8, symSize: 0x28 }
+  - { offset: 0x1B5C34, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMAmbientLightSensorReaderCMa', symObjAddr: 0xE74, symBinAddr: 0x3228, symSize: 0x38 }
+  - { offset: 0x1B5C48, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledNameV2, symObjAddr: 0xEAC, symBinAddr: 0x3260, symSize: 0x50 }
+  - { offset: 0x1B5C5C, size: 0x8, addend: 0x0, symName: _keypath_get_selector_value, symObjAddr: 0xEFC, symBinAddr: 0x32B0, symSize: 0xC }
+  - { offset: 0x1B5C70, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMSystemAppearanceSwitcherC12cancellables33_E04F0D6E4F7DE564CBB0DA29DC3F060FLLShy7Combine14AnyCancellableCGvpfi', symObjAddr: 0x122C, symBinAddr: 0x35E0, symSize: 0xC }
+  - { offset: 0x1B5C88, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMSystemAppearanceSwitcherC09candidateC033_E04F0D6E4F7DE564CBB0DA29DC3F060FLLAC0C0OSgvpfi', symObjAddr: 0x1238, symBinAddr: 0x35EC, symSize: 0x8 }
+  - { offset: 0x1B5CAB, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMAmbientLightSensorReaderC9frequency6sensorA2C15UpdateFrequencyO_So0bcD0CtcfcyAI_10Foundation24NSKeyValueObservedChangeVySdGtYbcfU_TA', symObjAddr: 0x1280, symBinAddr: 0x362C, symSize: 0x8 }
+  - { offset: 0x1B5CBF, size: 0x8, addend: 0x0, symName: '_$s2os9serialize_2atys5UInt8V_SpyAEGztF', symObjAddr: 0x1294, symBinAddr: 0x3640, symSize: 0x10 }
+  - { offset: 0x1B5CD3, size: 0x8, addend: 0x0, symName: '_$s2os0A11LogInternal_3log4typeyAA12OSLogMessageV_So03OS_a1_D0CSo0a1_d1_E2_tatFyySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcXEfU_', symObjAddr: 0x12A4, symBinAddr: 0x3650, symSize: 0x34 }
+  - { offset: 0x1B5CE7, size: 0x8, addend: 0x0, symName: '_$s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_', symObjAddr: 0x12D8, symBinAddr: 0x3684, symSize: 0x20 }
+  - { offset: 0x1B5CFF, size: 0x8, addend: 0x0, symName: '_$s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_', symObjAddr: 0x12F8, symBinAddr: 0x36A4, symSize: 0x54 }
+  - { offset: 0x1B5D3D, size: 0x8, addend: 0x0, symName: '_$s2os32getNullTerminatedUTF8PointerImpl_21storingStringOwnersInSVSS_SpyypGSgztF', symObjAddr: 0x134C, symBinAddr: 0x36F8, symSize: 0xC8 }
+  - { offset: 0x1B5D60, size: 0x8, addend: 0x0, symName: '_$ss11_StringGutsV16_deconstructUTF87scratchyXlSg5owner_xSi6lengthSb11usesScratchSb15allocatedMemorytSwSg_ts8_PointerRzlFSV_Tgq5', symObjAddr: 0x1414, symBinAddr: 0x37C0, symSize: 0x110 }
+  - { offset: 0x1B5DB7, size: 0x8, addend: 0x0, symName: '_$ss11_StringGutsV23_allocateForDeconstructyXl5owner_SVSi6lengthtyF', symObjAddr: 0x1524, symBinAddr: 0x38D0, symSize: 0x64 }
+  - { offset: 0x1B5E04, size: 0x8, addend: 0x0, symName: '_$ss32_copyCollectionToContiguousArrayys0dE0Vy7ElementQzGxSlRzlFSS8UTF8ViewV_Tgq5', symObjAddr: 0x1588, symBinAddr: 0x3934, symSize: 0x134 }
+  - { offset: 0x1B5E78, size: 0x8, addend: 0x0, symName: '_$sSa6append10contentsOfyqd__n_t7ElementQyd__RszSTRd__lFs5UInt8V_SayAFGTgq5', symObjAddr: 0x16BC, symBinAddr: 0x3A68, symSize: 0xF0 }
+  - { offset: 0x1B5F6C, size: 0x8, addend: 0x0, symName: '_$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFs5UInt8V_Tgq5', symObjAddr: 0x17AC, symBinAddr: 0x3B58, symSize: 0xF0 }
+  - { offset: 0x1B5FF3, size: 0x8, addend: 0x0, symName: '_$s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_', symObjAddr: 0x189C, symBinAddr: 0x3C48, symSize: 0x10 }
+  - { offset: 0x1B600B, size: 0x8, addend: 0x0, symName: ___swift_destroy_boxed_opaque_existential_0, symObjAddr: 0x18AC, symBinAddr: 0x3C58, symSize: 0x20 }
+  - { offset: 0x1B601F, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMAmbientLightSensorReaderC15UpdateFrequencyOSHAASQWb', symObjAddr: 0x18CC, symBinAddr: 0x3C78, symSize: 0x4 }
+  - { offset: 0x1B6033, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMAmbientLightSensorReaderC15UpdateFrequencyOAESQAAWl', symObjAddr: 0x18D0, symBinAddr: 0x3C7C, symSize: 0x40 }
+  - { offset: 0x1B6047, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMAmbientLightSensorReaderC7Combine16ObservableObjectAA0H19WillChangePublisherAdEP_AD0K0PWT', symObjAddr: 0x1910, symBinAddr: 0x3CBC, symSize: 0xC }
+  - { offset: 0x1B605B, size: 0x8, addend: 0x0, symName: '_$s8LADMCore16BrightnessMapperVMa', symObjAddr: 0x191C, symBinAddr: 0x3CC8, symSize: 0x10 }
+  - { offset: 0x1B606F, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMAmbientLightSensorReaderCMU', symObjAddr: 0x192C, symBinAddr: 0x3CD8, symSize: 0x8 }
+  - { offset: 0x1B6083, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMAmbientLightSensorReaderCMr', symObjAddr: 0x1934, symBinAddr: 0x3CE0, symSize: 0x9C }
+  - { offset: 0x1B6097, size: 0x8, addend: 0x0, symName: '_$s7Combine9PublishedVySdGMa', symObjAddr: 0x19D0, symBinAddr: 0x3D7C, symSize: 0x50 }
+  - { offset: 0x1B60AB, size: 0x8, addend: 0x0, symName: ___swift_memcpy1_1, symObjAddr: 0x1A20, symBinAddr: 0x3DCC, symSize: 0xC }
+  - { offset: 0x1B60BF, size: 0x8, addend: 0x0, symName: ___swift_noop_void_return, symObjAddr: 0x1A2C, symBinAddr: 0x3DD8, symSize: 0x4 }
+  - { offset: 0x1B60D3, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMAmbientLightSensorReaderC15UpdateFrequencyOwet', symObjAddr: 0x1A30, symBinAddr: 0x3DDC, symSize: 0x90 }
+  - { offset: 0x1B60E7, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMAmbientLightSensorReaderC15UpdateFrequencyOwst', symObjAddr: 0x1AC0, symBinAddr: 0x3E6C, symSize: 0xB0 }
+  - { offset: 0x1B60FB, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMAmbientLightSensorReaderC15UpdateFrequencyOwug', symObjAddr: 0x1B70, symBinAddr: 0x3F1C, symSize: 0x8 }
+  - { offset: 0x1B610F, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMAmbientLightSensorReaderC15UpdateFrequencyOwup', symObjAddr: 0x1B78, symBinAddr: 0x3F24, symSize: 0x4 }
+  - { offset: 0x1B6123, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMAmbientLightSensorReaderC15UpdateFrequencyOwui', symObjAddr: 0x1B7C, symBinAddr: 0x3F28, symSize: 0x8 }
+  - { offset: 0x1B6137, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMAmbientLightSensorReaderC15UpdateFrequencyOMa', symObjAddr: 0x1B84, symBinAddr: 0x3F30, symSize: 0x10 }
+  - { offset: 0x1B614B, size: 0x8, addend: 0x0, symName: '_$sypWOc', symObjAddr: 0x1B94, symBinAddr: 0x3F40, symSize: 0x3C }
+  - { offset: 0x1B616C, size: 0x8, addend: 0x0, symName: '_$s8LADMCore16BrightnessMapperV10percentage4fromS2d_tFZ', symObjAddr: 0x0, symBinAddr: 0x23E0, symSize: 0x28 }
+  - { offset: 0x1B6195, size: 0x8, addend: 0x0, symName: '_$s8LADMCore16BrightnessMapperV10percentage4fromS2d_tFZ', symObjAddr: 0x0, symBinAddr: 0x23E0, symSize: 0x28 }
+  - { offset: 0x1B61B2, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMAmbientLightSensorReaderC15UpdateFrequencyO8rawValueAESgSd_tcfC', symObjAddr: 0x44, symBinAddr: 0x2424, symSize: 0x48 }
+  - { offset: 0x1B61D0, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMAmbientLightSensorReaderC15UpdateFrequencyO8rawValueSdvg', symObjAddr: 0x8C, symBinAddr: 0x246C, symSize: 0x14 }
+  - { offset: 0x1B6239, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMAmbientLightSensorReaderC15UpdateFrequencyOSHAASH9hashValueSivgTW', symObjAddr: 0xB4, symBinAddr: 0x2494, symSize: 0x4C }
+  - { offset: 0x1B6309, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMAmbientLightSensorReaderC15UpdateFrequencyOSHAASH4hash4intoys6HasherVz_tFTW', symObjAddr: 0x100, symBinAddr: 0x24E0, symSize: 0x34 }
+  - { offset: 0x1B6385, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMAmbientLightSensorReaderC15UpdateFrequencyOSHAASH13_rawHashValue4seedS2i_tFTW', symObjAddr: 0x134, symBinAddr: 0x2514, symSize: 0x48 }
+  - { offset: 0x1B644D, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMAmbientLightSensorReaderC15UpdateFrequencyOSYAASY8rawValuexSg03RawI0Qz_tcfCTW', symObjAddr: 0x17C, symBinAddr: 0x255C, symSize: 0x58 }
+  - { offset: 0x1B646E, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMAmbientLightSensorReaderC15UpdateFrequencyOSYAASY8rawValue03RawI0QzvgTW', symObjAddr: 0x1D4, symBinAddr: 0x25B4, symSize: 0x18 }
+  - { offset: 0x1B6497, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMAmbientLightSensorReaderC02isD5ReadySbvg', symObjAddr: 0x1EC, symBinAddr: 0x25CC, symSize: 0x20 }
+  - { offset: 0x1B652D, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMAmbientLightSensorReaderC07ambientC5ValueSdvg', symObjAddr: 0x264, symBinAddr: 0x2618, symSize: 0x70 }
+  - { offset: 0x1B658A, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMAmbientLightSensorReaderC07ambientC5ValueSdvs', symObjAddr: 0x3B4, symBinAddr: 0x2768, symSize: 0x74 }
+  - { offset: 0x1B65B3, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMAmbientLightSensorReaderC07ambientC5ValueSdvM', symObjAddr: 0x428, symBinAddr: 0x27DC, symSize: 0x90 }
+  - { offset: 0x1B65EC, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMAmbientLightSensorReaderC07ambientC5ValueSdvM.resume.0', symObjAddr: 0x4B8, symBinAddr: 0x286C, symSize: 0x4C }
+  - { offset: 0x1B660D, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMAmbientLightSensorReaderC08$ambientC5Value7Combine9PublishedV9PublisherVySd_Gvg', symObjAddr: 0x50C, symBinAddr: 0x28C0, symSize: 0x70 }
+  - { offset: 0x1B662C, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMAmbientLightSensorReaderC08$ambientC5Value7Combine9PublishedV9PublisherVySd_Gvs', symObjAddr: 0x57C, symBinAddr: 0x2930, symSize: 0xE0 }
+  - { offset: 0x1B668E, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMAmbientLightSensorReaderC08$ambientC5Value7Combine9PublishedV9PublisherVySd_GvM', symObjAddr: 0x65C, symBinAddr: 0x2A10, symSize: 0x104 }
+  - { offset: 0x1B6703, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMAmbientLightSensorReaderC08$ambientC5Value7Combine9PublishedV9PublisherVySd_GvM.resume.0', symObjAddr: 0x760, symBinAddr: 0x2B14, symSize: 0xBC }
+  - { offset: 0x1B67E3, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMAmbientLightSensorReaderC9frequency6sensorA2C15UpdateFrequencyO_So0bcD0CtcfC', symObjAddr: 0x824, symBinAddr: 0x2BD8, symSize: 0x1F8 }
+  - { offset: 0x1B6883, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMAmbientLightSensorReaderC9frequency6sensorA2C15UpdateFrequencyO_So0bcD0Ctcfc', symObjAddr: 0xA1C, symBinAddr: 0x2DD0, symSize: 0x1E8 }
+  - { offset: 0x1B695B, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMAmbientLightSensorReaderC9frequency6sensorA2C15UpdateFrequencyO_So0bcD0CtcfcyAI_10Foundation24NSKeyValueObservedChangeVySdGtYbcfU_', symObjAddr: 0xC2C, symBinAddr: 0x2FE0, symSize: 0x134 }
+  - { offset: 0x1B6A0F, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMAmbientLightSensorReaderC8activateyyF', symObjAddr: 0xD60, symBinAddr: 0x3114, symSize: 0x114 }
+  - { offset: 0x1B6B46, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMAmbientLightSensorReaderC10invalidateyyF', symObjAddr: 0xF08, symBinAddr: 0x32BC, symSize: 0x118 }
+  - { offset: 0x1B6C7D, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMAmbientLightSensorReaderC6updateyyF', symObjAddr: 0x1020, symBinAddr: 0x33D4, symSize: 0x10 }
+  - { offset: 0x1B6CA0, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMAmbientLightSensorReaderCfd', symObjAddr: 0x1030, symBinAddr: 0x33E4, symSize: 0x94 }
+  - { offset: 0x1B6CD3, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMAmbientLightSensorReaderCfD', symObjAddr: 0x10C4, symBinAddr: 0x3478, symSize: 0xA0 }
+  - { offset: 0x1B6D0E, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMAmbientLightSensorReaderC7Combine16ObservableObjectAadEP16objectWillChange0hjK9PublisherQzvgTW', symObjAddr: 0x1164, symBinAddr: 0x3518, symSize: 0x28 }
+  - { offset: 0x1B6D51, size: 0x8, addend: 0x0, symName: '_$sSo18SMAppServiceStatusVSYSCSY8rawValue03RawE0QzvgTW', symObjAddr: 0x1288, symBinAddr: 0x3634, symSize: 0xC }
+  - { offset: 0x1B78A4, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC15showMenuBarIconSbvpfF', symObjAddr: 0xC20, symBinAddr: 0x4B50, symSize: 0x2C }
+  - { offset: 0x1B78D8, size: 0x8, addend: 0x0, symName: '_$sSo14SharedFileListCIegg_ABIeyBy_TR', symObjAddr: 0x1338, symBinAddr: 0x523C, symSize: 0x4C }
+  - { offset: 0x1B78F7, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC50isChangeSystemAppearanceBasedOnAmbientLightEnabledSbvpACTk', symObjAddr: 0x1664, symBinAddr: 0x5568, symSize: 0x24 }
+  - { offset: 0x1B790B, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC17darknessThresholdSdvpACTk', symObjAddr: 0x1980, symBinAddr: 0x5858, symSize: 0x24 }
+  - { offset: 0x1B791F, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC34darknessThresholdIntervalInSecondsSdvpACTk', symObjAddr: 0x1C70, symBinAddr: 0x5B48, symSize: 0x24 }
+  - { offset: 0x1B7933, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC29ambientLightSmoothingConstantSdvpACTk', symObjAddr: 0x1F60, symBinAddr: 0x5E38, symSize: 0x24 }
+  - { offset: 0x1B7947, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC40extraThresholdBeforeRevertingToLightModeSdvpACTk', symObjAddr: 0x231C, symBinAddr: 0x61F4, symSize: 0x24 }
+  - { offset: 0x1B795B, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC22isLaunchAtLoginEnabledSbvpACTk', symObjAddr: 0x2D50, symBinAddr: 0x6B98, symSize: 0xC8 }
+  - { offset: 0x1B7994, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFSS_Tg5', symObjAddr: 0x34F4, symBinAddr: 0x7258, symSize: 0x64 }
+  - { offset: 0x1B79E2, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFSS_Tg5', symObjAddr: 0x3558, symBinAddr: 0x72BC, symSize: 0xAC }
+  - { offset: 0x1B7ABD, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC10forPreview8defaultsACSb_So14NSUserDefaultsCtcfcySo14SharedFileListCcfU_TA', symObjAddr: 0x3894, symBinAddr: 0x75F8, symSize: 0x8 }
+  - { offset: 0x1B7AD1, size: 0x8, addend: 0x0, symName: _block_copy_helper, symObjAddr: 0x389C, symBinAddr: 0x7600, symSize: 0x14 }
+  - { offset: 0x1B7AE5, size: 0x8, addend: 0x0, symName: _block_destroy_helper, symObjAddr: 0x38B0, symBinAddr: 0x7614, symSize: 0x8 }
+  - { offset: 0x1B7B30, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsCMU', symObjAddr: 0x3AE4, symBinAddr: 0x783C, symSize: 0x8 }
+  - { offset: 0x1B7B44, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsCMa', symObjAddr: 0x3AEC, symBinAddr: 0x7844, symSize: 0x38 }
+  - { offset: 0x1B7B58, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsCMr', symObjAddr: 0x3B24, symBinAddr: 0x787C, symSize: 0xC8 }
+  - { offset: 0x1B7B6C, size: 0x8, addend: 0x0, symName: '_$sSS_yptWOc', symObjAddr: 0x3C30, symBinAddr: 0x7988, symSize: 0x50 }
+  - { offset: 0x1B7B80, size: 0x8, addend: 0x0, symName: '_$sypWOb', symObjAddr: 0x3C80, symBinAddr: 0x79D8, symSize: 0x10 }
+  - { offset: 0x1B7B94, size: 0x8, addend: 0x0, symName: '_$sypSgWOh', symObjAddr: 0x3C90, symBinAddr: 0x79E8, symSize: 0x48 }
+  - { offset: 0x1B7BA8, size: 0x8, addend: 0x0, symName: '_$sSo8NSNumberCMa', symObjAddr: 0x3CD8, symBinAddr: 0x7A30, symSize: 0x44 }
+  - { offset: 0x1B7C15, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC4Keys33_F77CD0538F02722582ED7BF00AFF0FE7LLV24defaultDarknessThreshold_WZ', symObjAddr: 0x0, symBinAddr: 0x3F80, symSize: 0x54 }
+  - { offset: 0x1B7C72, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC4Keys33_F77CD0538F02722582ED7BF00AFF0FE7LLV36defaultAmbientLightSmoothingConstant_WZ', symObjAddr: 0x54, symBinAddr: 0x3FD4, symSize: 0x38 }
+  - { offset: 0x1B7C9C, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC4Keys33_F77CD0538F02722582ED7BF00AFF0FE7LLV47defaultExtraThresholdBeforeRevertingToLightMode_WZ', symObjAddr: 0x8C, symBinAddr: 0x400C, symSize: 0x1C }
+  - { offset: 0x1B7CB0, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC4Keys33_F77CD0538F02722582ED7BF00AFF0FE7LLV47defaultExtraThresholdBeforeRevertingToLightModeSdvpZfiSdyXEfU_', symObjAddr: 0xA8, symBinAddr: 0x4028, symSize: 0x90 }
+  - { offset: 0x1B7D60, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC10forPreview8defaultsACSb_So14NSUserDefaultsCtcfC', symObjAddr: 0x138, symBinAddr: 0x40B8, symSize: 0x4C }
+  - { offset: 0x1B7E3B, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC10forPreview8defaultsACSb_So14NSUserDefaultsCtcfc', symObjAddr: 0x184, symBinAddr: 0x4104, symSize: 0x770 }
+  - { offset: 0x1B813A, size: 0x8, addend: 0x0, symName: '_$sSo14NSUserDefaultsC8LADMCoreE19optionalDoubleValue33_F77CD0538F02722582ED7BF00AFF0FE7LL6forKeySdSgSS_tF', symObjAddr: 0x8F4, symBinAddr: 0x4874, symSize: 0xEC }
+  - { offset: 0x1B81B3, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC50isChangeSystemAppearanceBasedOnAmbientLightEnabledSbvs', symObjAddr: 0xA30, symBinAddr: 0x4960, symSize: 0xF8 }
+  - { offset: 0x1B823D, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC20hasLaunchedAppBeforeSbvs', symObjAddr: 0xB28, symBinAddr: 0x4A58, symSize: 0xF8 }
+  - { offset: 0x1B82C7, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC15showMenuBarIconSbvs', symObjAddr: 0xC4C, symBinAddr: 0x4B7C, symSize: 0x100 }
+  - { offset: 0x1B8353, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC17darknessThresholdSdvs', symObjAddr: 0xD78, symBinAddr: 0x4C7C, symSize: 0x100 }
+  - { offset: 0x1B83DB, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC34darknessThresholdIntervalInSecondsSdvs', symObjAddr: 0xE78, symBinAddr: 0x4D7C, symSize: 0x100 }
+  - { offset: 0x1B8463, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC29ambientLightSmoothingConstantSdvs', symObjAddr: 0xF78, symBinAddr: 0x4E7C, symSize: 0x100 }
+  - { offset: 0x1B84EB, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC40extraThresholdBeforeRevertingToLightModeSdvs', symObjAddr: 0x1078, symBinAddr: 0x4F7C, symSize: 0x100 }
+  - { offset: 0x1B854B, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC22isLaunchAtLoginEnabledSbvs', symObjAddr: 0x1178, symBinAddr: 0x507C, symSize: 0xC4 }
+  - { offset: 0x1B85CD, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC10forPreview8defaultsACSb_So14NSUserDefaultsCtcfcySo14SharedFileListCcfU_', symObjAddr: 0x123C, symBinAddr: 0x5140, symSize: 0xFC }
+  - { offset: 0x1B8649, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC20hasLaunchedAppBeforeSbvM', symObjAddr: 0x1398, symBinAddr: 0x529C, symSize: 0x80 }
+  - { offset: 0x1B8683, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC20hasLaunchedAppBeforeSbvM.resume.0', symObjAddr: 0x1418, symBinAddr: 0x531C, symSize: 0x24 }
+  - { offset: 0x1B86A4, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC21$hasLaunchedAppBefore7Combine9PublishedV9PublisherVySb_Gvs', symObjAddr: 0x1458, symBinAddr: 0x535C, symSize: 0xE0 }
+  - { offset: 0x1B8706, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC21$hasLaunchedAppBefore7Combine9PublishedV9PublisherVySb_GvM', symObjAddr: 0x1538, symBinAddr: 0x543C, symSize: 0x104 }
+  - { offset: 0x1B877B, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC50isChangeSystemAppearanceBasedOnAmbientLightEnabledSbvM', symObjAddr: 0x1688, symBinAddr: 0x558C, symSize: 0x80 }
+  - { offset: 0x1B87B5, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC50isChangeSystemAppearanceBasedOnAmbientLightEnabledSbvM.resume.0', symObjAddr: 0x1708, symBinAddr: 0x560C, symSize: 0x24 }
+  - { offset: 0x1B87D6, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC51$isChangeSystemAppearanceBasedOnAmbientLightEnabled7Combine9PublishedV9PublisherVySb_Gvs', symObjAddr: 0x1748, symBinAddr: 0x564C, symSize: 0xE0 }
+  - { offset: 0x1B8833, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC51$isChangeSystemAppearanceBasedOnAmbientLightEnabled7Combine9PublishedV9PublisherVySb_GvM', symObjAddr: 0x1828, symBinAddr: 0x572C, symSize: 0x104 }
+  - { offset: 0x1B88A8, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC17darknessThresholdSdvM', symObjAddr: 0x19A4, symBinAddr: 0x587C, symSize: 0x80 }
+  - { offset: 0x1B88E2, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC17darknessThresholdSdvM.resume.0', symObjAddr: 0x1A24, symBinAddr: 0x58FC, symSize: 0x24 }
+  - { offset: 0x1B8903, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC18$darknessThreshold7Combine9PublishedV9PublisherVySd_Gvs', symObjAddr: 0x1A64, symBinAddr: 0x593C, symSize: 0xE0 }
+  - { offset: 0x1B8965, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC18$darknessThreshold7Combine9PublishedV9PublisherVySd_GvM', symObjAddr: 0x1B44, symBinAddr: 0x5A1C, symSize: 0x104 }
+  - { offset: 0x1B89DA, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC34darknessThresholdIntervalInSecondsSdvM', symObjAddr: 0x1C94, symBinAddr: 0x5B6C, symSize: 0x80 }
+  - { offset: 0x1B8A14, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC34darknessThresholdIntervalInSecondsSdvM.resume.0', symObjAddr: 0x1D14, symBinAddr: 0x5BEC, symSize: 0x24 }
+  - { offset: 0x1B8A35, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC35$darknessThresholdIntervalInSeconds7Combine9PublishedV9PublisherVySd_Gvs', symObjAddr: 0x1D54, symBinAddr: 0x5C2C, symSize: 0xE0 }
+  - { offset: 0x1B8A97, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC35$darknessThresholdIntervalInSeconds7Combine9PublishedV9PublisherVySd_GvM', symObjAddr: 0x1E34, symBinAddr: 0x5D0C, symSize: 0x104 }
+  - { offset: 0x1B8B0C, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC29ambientLightSmoothingConstantSdvM', symObjAddr: 0x1F84, symBinAddr: 0x5E5C, symSize: 0x80 }
+  - { offset: 0x1B8B46, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC29ambientLightSmoothingConstantSdvM.resume.0', symObjAddr: 0x2004, symBinAddr: 0x5EDC, symSize: 0x24 }
+  - { offset: 0x1B8B67, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC30$ambientLightSmoothingConstant7Combine9PublishedV9PublisherVySd_Gvs', symObjAddr: 0x2044, symBinAddr: 0x5F1C, symSize: 0xE0 }
+  - { offset: 0x1B8BC4, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC30$ambientLightSmoothingConstant7Combine9PublishedV9PublisherVySd_GvM', symObjAddr: 0x2124, symBinAddr: 0x5FFC, symSize: 0x104 }
+  - { offset: 0x1B8C39, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC40extraThresholdBeforeRevertingToLightModeSdvM', symObjAddr: 0x2340, symBinAddr: 0x6218, symSize: 0x80 }
+  - { offset: 0x1B8C73, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC40extraThresholdBeforeRevertingToLightModeSdvM.resume.0', symObjAddr: 0x23C0, symBinAddr: 0x6298, symSize: 0x24 }
+  - { offset: 0x1B8C94, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC41$extraThresholdBeforeRevertingToLightMode7Combine9PublishedV9PublisherVySd_Gvs', symObjAddr: 0x2400, symBinAddr: 0x62D8, symSize: 0xE0 }
+  - { offset: 0x1B8CF1, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC41$extraThresholdBeforeRevertingToLightMode7Combine9PublishedV9PublisherVySd_GvM', symObjAddr: 0x24E0, symBinAddr: 0x63B8, symSize: 0x104 }
+  - { offset: 0x1B8D66, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC15showMenuBarIconSbvM', symObjAddr: 0x2624, symBinAddr: 0x64D0, symSize: 0x80 }
+  - { offset: 0x1B8DA0, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC15showMenuBarIconSbvM.resume.0', symObjAddr: 0x26A4, symBinAddr: 0x6550, symSize: 0x24 }
+  - { offset: 0x1B8DC1, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC16$showMenuBarIcon7Combine9PublishedV9PublisherVySb_Gvs', symObjAddr: 0x26E4, symBinAddr: 0x6590, symSize: 0xE0 }
+  - { offset: 0x1B8E1E, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC16$showMenuBarIcon7Combine9PublishedV9PublisherVySb_GvM', symObjAddr: 0x27C4, symBinAddr: 0x6670, symSize: 0x104 }
+  - { offset: 0x1B8EC4, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC22isLaunchAtLoginEnabledSbvW', symObjAddr: 0x28CC, symBinAddr: 0x6778, symSize: 0x3A4 }
+  - { offset: 0x1B8F3F, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC22isLaunchAtLoginEnabledSbvM', symObjAddr: 0x2E18, symBinAddr: 0x6C60, symSize: 0x80 }
+  - { offset: 0x1B8F79, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC22isLaunchAtLoginEnabledSbvM.resume.0', symObjAddr: 0x2E98, symBinAddr: 0x6CE0, symSize: 0xD0 }
+  - { offset: 0x1B8FA6, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC23$isLaunchAtLoginEnabled7Combine9PublishedV9PublisherVySb_Gvs', symObjAddr: 0x2FF8, symBinAddr: 0x6E40, symSize: 0xE0 }
+  - { offset: 0x1B9003, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC23$isLaunchAtLoginEnabled7Combine9PublishedV9PublisherVySb_GvM', symObjAddr: 0x30D8, symBinAddr: 0x6F20, symSize: 0x104 }
+  - { offset: 0x1B9078, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsCfd', symObjAddr: 0x3298, symBinAddr: 0x7024, symSize: 0x114 }
+  - { offset: 0x1B90AB, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsCfD', symObjAddr: 0x33AC, symBinAddr: 0x7138, symSize: 0x120 }
+  - { offset: 0x1B90FF, size: 0x8, addend: 0x0, symName: '_$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_ypTt0g5Tf4g_n', symObjAddr: 0x3604, symBinAddr: 0x7368, symSize: 0x10C }
+  - { offset: 0x1B9204, size: 0x8, addend: 0x0, symName: '_$s8LADMCore12LADMSettingsC17isAppInLoginItems33_F77CD0538F02722582ED7BF00AFF0FE7LLSbvgZTf4d_n', symObjAddr: 0x3710, symBinAddr: 0x7474, symSize: 0x160 }
+  - { offset: 0x1B975E, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMSystemAppearanceSwitcherC8activateyyFySdcfU_TA', symObjAddr: 0x63C, symBinAddr: 0x8058, symSize: 0x8 }
+  - { offset: 0x1B9772, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledNameAbstractV2, symObjAddr: 0x644, symBinAddr: 0x8060, symSize: 0x54 }
+  - { offset: 0x1B97DA, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMSystemAppearanceSwitcherC8activateyyFySdcfU0_TA', symObjAddr: 0x818, symBinAddr: 0x8234, symSize: 0x18 }
+  - { offset: 0x1B97EE, size: 0x8, addend: 0x0, symName: '_$sIeg_IeyB_TR', symObjAddr: 0xECC, symBinAddr: 0x88E8, symSize: 0x2C }
+  - { offset: 0x1B9806, size: 0x8, addend: 0x0, symName: '_$s10Foundation12NotificationVIeghn_So14NSNotificationCIeyBhy_TR', symObjAddr: 0xEF8, symBinAddr: 0x8914, symSize: 0xA4 }
+  - { offset: 0x1B98A1, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMSystemAppearanceSwitcherCMU', symObjAddr: 0x1CA8, symBinAddr: 0x9690, symSize: 0x8 }
+  - { offset: 0x1B98B5, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMSystemAppearanceSwitcherCMa', symObjAddr: 0x1CB0, symBinAddr: 0x9698, symSize: 0x38 }
+  - { offset: 0x1B98C9, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMSystemAppearanceSwitcherCMr', symObjAddr: 0x1CE8, symBinAddr: 0x96D0, symSize: 0x9C }
+  - { offset: 0x1B98DD, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMSystemAppearanceSwitcherC0C0Owet', symObjAddr: 0x1D94, symBinAddr: 0x976C, symSize: 0x90 }
+  - { offset: 0x1B98F1, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMSystemAppearanceSwitcherC0C0Owst', symObjAddr: 0x1E24, symBinAddr: 0x97FC, symSize: 0xB0 }
+  - { offset: 0x1B9905, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMSystemAppearanceSwitcherC0C0OMa', symObjAddr: 0x1EE8, symBinAddr: 0x98AC, symSize: 0x10 }
+  - { offset: 0x1B9919, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMSystemAppearanceSwitcherC0C0OSHAASQWb', symObjAddr: 0x1EF8, symBinAddr: 0x98BC, symSize: 0x4 }
+  - { offset: 0x1B992D, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMSystemAppearanceSwitcherC0C0OAESQAAWl', symObjAddr: 0x1EFC, symBinAddr: 0x98C0, symSize: 0x40 }
+  - { offset: 0x1B9941, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMSystemAppearanceSwitcherC011setupUpdateC6OnWake33_E04F0D6E4F7DE564CBB0DA29DC3F060FLLyyFy10Foundation12NotificationVYbcfU_TA', symObjAddr: 0x1F3C, symBinAddr: 0x9900, symSize: 0x8 }
+  - { offset: 0x1B9955, size: 0x8, addend: 0x0, symName: _block_copy_helper, symObjAddr: 0x1F44, symBinAddr: 0x9908, symSize: 0x14 }
+  - { offset: 0x1B9969, size: 0x8, addend: 0x0, symName: _block_destroy_helper, symObjAddr: 0x1F58, symBinAddr: 0x991C, symSize: 0x8 }
+  - { offset: 0x1B997D, size: 0x8, addend: 0x0, symName: '_$sSo17OS_dispatch_queueCMa', symObjAddr: 0x1F60, symBinAddr: 0x9924, symSize: 0x44 }
+  - { offset: 0x1B9991, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMSystemAppearanceSwitcherC011setupUpdateC6OnWake33_E04F0D6E4F7DE564CBB0DA29DC3F060FLLyyFy10Foundation12NotificationVYbcfU_yyScMYccfU_TA', symObjAddr: 0x1FA4, symBinAddr: 0x9968, symSize: 0x8 }
+  - { offset: 0x1B99A5, size: 0x8, addend: 0x0, symName: '_$s8Dispatch0A13WorkItemFlagsVACs10SetAlgebraAAWl', symObjAddr: 0x1FAC, symBinAddr: 0x9970, symSize: 0x44 }
+  - { offset: 0x1B99B9, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMSystemAppearanceSwitcherC20evaluateAmbientLight33_E04F0D6E4F7DE564CBB0DA29DC3F060FLL4withySd_tFyycfU_TA', symObjAddr: 0x2090, symBinAddr: 0x9A34, symSize: 0xC }
+  - { offset: 0x1B99FC, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMSystemAppearanceSwitcherC0C0OSHAASH9hashValueSivgTW', symObjAddr: 0x14, symBinAddr: 0x7A80, symSize: 0x44 }
+  - { offset: 0x1B9A8E, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMSystemAppearanceSwitcherC0C0OSHAASH4hash4intoys6HasherVz_tFTW', symObjAddr: 0x58, symBinAddr: 0x7AC4, symSize: 0x28 }
+  - { offset: 0x1B9ACC, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMSystemAppearanceSwitcherC0C0OSHAASH13_rawHashValue4seedS2i_tFTW', symObjAddr: 0x80, symBinAddr: 0x7AEC, symSize: 0x40 }
+  - { offset: 0x1B9B61, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMSystemAppearanceSwitcherC0C0OSYAASY8rawValuexSg03RawF0Qz_tcfCTW', symObjAddr: 0xC0, symBinAddr: 0x7B2C, symSize: 0x20 }
+  - { offset: 0x1B9B8A, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMSystemAppearanceSwitcherC0C0OSYAASY8rawValue03RawF0QzvgTW', symObjAddr: 0xE0, symBinAddr: 0x7B4C, symSize: 0xC }
+  - { offset: 0x1B9BB7, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMSystemAppearanceSwitcherC0C0Os23CustomStringConvertibleAAsAFP11descriptionSSvgTW', symObjAddr: 0xEC, symBinAddr: 0x7B58, symSize: 0x30 }
+  - { offset: 0x1B9BF7, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMSystemAppearanceSwitcherC8settings6readerAcA12LADMSettingsC_AA28LADMAmbientLightSensorReaderCtcfC', symObjAddr: 0x11C, symBinAddr: 0x7B88, symSize: 0x4C }
+  - { offset: 0x1B9C24, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMSystemAppearanceSwitcherC8settings6readerAcA12LADMSettingsC_AA28LADMAmbientLightSensorReaderCtcfc', symObjAddr: 0x168, symBinAddr: 0x7BD4, symSize: 0xDC }
+  - { offset: 0x1B9CBC, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMSystemAppearanceSwitcherC8activateyyF', symObjAddr: 0x294, symBinAddr: 0x7CB0, symSize: 0x320 }
+  - { offset: 0x1B9D3C, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMSystemAppearanceSwitcherC8activateyyFySdcfU_', symObjAddr: 0x5D8, symBinAddr: 0x7FF4, symSize: 0x64 }
+  - { offset: 0x1B9D9C, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMSystemAppearanceSwitcherC19ambientLightChanged33_E04F0D6E4F7DE564CBB0DA29DC3F060FLL2toySd_tF', symObjAddr: 0x698, symBinAddr: 0x80B4, symSize: 0x180 }
+  - { offset: 0x1B9EA5, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMSystemAppearanceSwitcherC011setupUpdateC6OnWake33_E04F0D6E4F7DE564CBB0DA29DC3F060FLLyyF', symObjAddr: 0x8F4, symBinAddr: 0x8310, symSize: 0x13C }
+  - { offset: 0x1B9EC9, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMSystemAppearanceSwitcherC011setupUpdateC6OnWake33_E04F0D6E4F7DE564CBB0DA29DC3F060FLLyyFy10Foundation12NotificationVYbcfU_', symObjAddr: 0xA30, symBinAddr: 0x844C, symSize: 0x278 }
+  - { offset: 0x1B9F1E, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMSystemAppearanceSwitcherC011setupUpdateC6OnWake33_E04F0D6E4F7DE564CBB0DA29DC3F060FLLyyFy10Foundation12NotificationVYbcfU_yyScMYccfU_', symObjAddr: 0xCA8, symBinAddr: 0x86C4, symSize: 0x54 }
+  - { offset: 0x1BA019, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMSystemAppearanceSwitcherC07attemptC12ChangeOnWake33_E04F0D6E4F7DE564CBB0DA29DC3F060FLLyyF', symObjAddr: 0xCFC, symBinAddr: 0x8718, symSize: 0x1D0 }
+  - { offset: 0x1BA168, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMSystemAppearanceSwitcherC012changeSystemC033_E04F0D6E4F7DE564CBB0DA29DC3F060FLL2toyAC0C0O_tF', symObjAddr: 0xF9C, symBinAddr: 0x89B8, symSize: 0x310 }
+  - { offset: 0x1BA3E1, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMSystemAppearanceSwitcherC30cancelScheduledApperanceChange33_E04F0D6E4F7DE564CBB0DA29DC3F060FLLyyF', symObjAddr: 0x12AC, symBinAddr: 0x8CC8, symSize: 0xDC }
+  - { offset: 0x1BA459, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMSystemAppearanceSwitcherC20evaluateAmbientLight33_E04F0D6E4F7DE564CBB0DA29DC3F060FLL4withySd_tF', symObjAddr: 0x1388, symBinAddr: 0x8DA4, symSize: 0x784 }
+  - { offset: 0x1BA8F4, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMSystemAppearanceSwitcherC20evaluateAmbientLight33_E04F0D6E4F7DE564CBB0DA29DC3F060FLL4withySd_tFyycfU_', symObjAddr: 0x1B0C, symBinAddr: 0x9528, symSize: 0x5C }
+  - { offset: 0x1BA97B, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMSystemAppearanceSwitcherCfd', symObjAddr: 0x1B68, symBinAddr: 0x9584, symSize: 0x80 }
+  - { offset: 0x1BA9B3, size: 0x8, addend: 0x0, symName: '_$s8LADMCore28LADMSystemAppearanceSwitcherCfD', symObjAddr: 0x1BE8, symBinAddr: 0x9604, symSize: 0x8C }
+  - { offset: 0x1BAADE, size: 0x8, addend: 0x0, symName: '_$s8LADMCore21ClamshellStateCheckerCfD', symObjAddr: 0x0, symBinAddr: 0x9A6C, symSize: 0x10 }
+  - { offset: 0x1BAB29, size: 0x8, addend: 0x0, symName: '_$s8LADMCore21ClamshellStateCheckerCMa', symObjAddr: 0x10, symBinAddr: 0x9A7C, symSize: 0x20 }
+  - { offset: 0x1BAB3D, size: 0x8, addend: 0x0, symName: '_$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCs5UInt8V_Tt1gq5', symObjAddr: 0x30, symBinAddr: 0x9A9C, symSize: 0x70 }
+  - { offset: 0x1BABDE, size: 0x8, addend: 0x0, symName: '_$sSS44_fromNonContiguousUnsafeBitcastUTF8RepairingySS6result_Sb11repairsMadetxSlRzlFZ10Foundation4DataV_Tt0g5', symObjAddr: 0xA0, symBinAddr: 0x9B0C, symSize: 0x68 }
+  - { offset: 0x1BAC87, size: 0x8, addend: 0x0, symName: '_$sSS8decoding2asSSx_q_mtcSlRzs16_UnicodeEncodingR_8CodeUnitQy_7ElementRtzr0_lufcSSSWXEfU0_', symObjAddr: 0x108, symBinAddr: 0x9B74, symSize: 0x38 }
+  - { offset: 0x1BACBC, size: 0x8, addend: 0x0, symName: '_$sSaySayxGqd__c7ElementQyd__RszSTRd__lufCs5UInt8V_10Foundation4DataVTt0g5', symObjAddr: 0x140, symBinAddr: 0x9BAC, symSize: 0x130 }
+  - { offset: 0x1BAE0B, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV15_RepresentationOWOy', symObjAddr: 0x750, symBinAddr: 0xA16C, symSize: 0x40 }
+  - { offset: 0x1BAE1F, size: 0x8, addend: 0x0, symName: '_$ss19_HasContiguousBytes_pSgWOh', symObjAddr: 0x790, symBinAddr: 0xA1AC, symSize: 0x48 }
+  - { offset: 0x1BAE33, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV15_RepresentationOWOe', symObjAddr: 0x7D8, symBinAddr: 0xA1F4, symSize: 0x40 }
+  - { offset: 0x1BAE47, size: 0x8, addend: 0x0, symName: '_$sS2SSysWl', symObjAddr: 0x818, symBinAddr: 0xA234, symSize: 0x40 }
+  - { offset: 0x1BAE5B, size: 0x8, addend: 0x0, symName: '_$ss19_HasContiguousBytes_pWOb', symObjAddr: 0x858, symBinAddr: 0xA274, symSize: 0x18 }
+  - { offset: 0x1BAE6F, size: 0x8, addend: 0x0, symName: ___swift_project_boxed_opaque_existential_1, symObjAddr: 0x870, symBinAddr: 0xA28C, symSize: 0x24 }
+  - { offset: 0x1BAE8F, size: 0x8, addend: 0x0, symName: '_$s8LADMCore21ClamshellStateCheckerCfD', symObjAddr: 0x0, symBinAddr: 0x9A6C, symSize: 0x10 }
+  - { offset: 0x1BB03A, size: 0x8, addend: 0x0, symName: '_$s8LADMCore21ClamshellStateCheckerC02isB6ClosedSbyFZTf4d_n', symObjAddr: 0x270, symBinAddr: 0x9CDC, symSize: 0x490 }
 ...

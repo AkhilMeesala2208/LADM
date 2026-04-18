@@ -9,6 +9,15 @@ import Foundation
 import Combine
 import OSLog
 
+public struct BrightnessMapper {
+    /// Converts a raw lux value to a 0-100 percentage using a hyperbolic scale.
+    /// Formula: Percentage = 100 * (Lux / (Lux + K)) where K = 5
+    public static func percentage(from lux: Double) -> Double {
+        let maxLux = max(0, lux)
+        return 100.0 * (maxLux / (maxLux + 5.0))
+    }
+}
+
 public final class LADMAmbientLightSensorReader: ObservableObject {
     
     private let log = Logger(subsystem: kLADMCoreSubsystemName, category: String(describing: LADMAmbientLightSensorReader.self))
@@ -34,7 +43,7 @@ public final class LADMAmbientLightSensorReader: ObservableObject {
         sensorObservation = sensor.observe(\.value, options: [.initial, .new, .old]) { [weak self] sensor, change in
             guard let self = self else { return }
             guard change.oldValue != change.newValue else { return }
-            self.ambientLightValue = sensor.value
+            self.ambientLightValue = BrightnessMapper.percentage(from: sensor.value)
         }
     }
     

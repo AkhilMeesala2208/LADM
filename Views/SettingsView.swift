@@ -9,10 +9,10 @@ import SwiftUI
 import LADMCore
 
 struct SettingsView: View {
-    @EnvironmentObject var reader: DMBAmbientLightSensorReader
-    @EnvironmentObject var settings: DMBSettings
+    @EnvironmentObject var reader: LADMAmbientLightSensorReader
+    @EnvironmentObject var settings: LADMSettings
 
-    private let darknessInterval: ClosedRange<Double> = 0...3000
+    private let darknessInterval: ClosedRange<Double> = 0...100
 
     @State private var isShowingDarknessValueOutOfBoundsAlert = false
     @State private var isEditingAmbientLightLevelManually = false
@@ -68,7 +68,7 @@ struct SettingsView: View {
                                 }
                             .frame(maxWidth: 40)
                         } else {
-                            Text("\(settings.darknessThreshold.formattedNoFractionDigits)")
+                            Text("\(settings.darknessThreshold.formattedNoFractionDigits)%")
                                 .font(.system(size: 12, weight: .medium).monospacedDigit())
                                 .onTapGesture(count: 2) {
                                     self.editingAmbientLightManuallyTextFieldStore = "\(settings.darknessThreshold.formattedNoFractionDigits)"
@@ -84,7 +84,7 @@ struct SettingsView: View {
                     
                     HStack(alignment: .firstTextBaseline) {
                         Text("Current Ambient Light Level:")
-                        Text("\(reader.ambientLightValue.formattedNoFractionDigits)")
+                        Text("\(reader.ambientLightValue.formattedNoFractionDigits)%")
                             .font(.system(size: 12).monospacedDigit())
                     }
                     .font(.system(size: 12))
@@ -103,6 +103,8 @@ struct SettingsView: View {
                 }
             }
             .disabled(!settings.isChangeSystemAppearanceBasedOnAmbientLightEnabled)
+            
+            Toggle("Show in Menu Bar", isOn: $settings.showMenuBarIcon)
             
             Text(settings.currentSettingsDescription)
                 .font(.system(size: 11))
@@ -140,13 +142,13 @@ extension Double {
     }
 }
 
-extension DMBSettings {
+extension LADMSettings {
     var currentSettingsDescription: String {
         guard isChangeSystemAppearanceBasedOnAmbientLightEnabled else {
             return "Dark Mode will not be enabled automatically based on ambient light."
         }
         
-        return "Dark Mode will be enabled when the ambient light stays below \(darknessThreshold.formattedNoFractionDigits) for over \(darknessThresholdIntervalInSeconds.formattedLongTime)."
+        return "Dark Mode will be enabled when the ambient light stays below \(darknessThreshold.formattedNoFractionDigits)% for over \(darknessThresholdIntervalInSeconds.formattedLongTime)."
     }
 }
 
@@ -154,8 +156,8 @@ struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         SettingsView()
             .frame(maxWidth: 385)
-            .environmentObject(DMBAmbientLightSensorReader(frequency: .realtime))
-            .environmentObject(DMBSettings(forPreview: true))
+            .environmentObject(LADMAmbientLightSensorReader(frequency: .realtime))
+            .environmentObject(LADMSettings(forPreview: true))
             .previewLayout(.sizeThatFits)
     }
 }
