@@ -9,7 +9,6 @@ import Cocoa
 import SwiftUI
 import LADMCore
 import Combine
-import Sparkle
 
 @main
 class AppDelegate: NSObject, NSApplicationDelegate {
@@ -35,7 +34,6 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     }
     
     func applicationWillFinishLaunching(_ notification: Notification) {
-        SUUpdater.shared()?.delegate = self
     }
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
@@ -225,20 +223,6 @@ extension AppDelegate: NSWindowDelegate {
     }
     
 }
-
-extension AppDelegate: SUUpdaterDelegate {
-    
-    func updaterWillRelaunchApplication(_ updater: SUUpdater) {
-        shouldSkipTerminationConfirmation = true
-        shouldShowSettingsOnNextLaunch = true
-    }
-    
-    func updater(_ updater: SUUpdater, didCancelInstallUpdateOnQuit item: SUAppcastItem) {
-        shouldSkipTerminationConfirmation = false
-    }
-    
-}
-
 // MARK: - Popover SwiftUI View
 struct MenuBarPopoverView: View {
     @EnvironmentObject var reader: LADMAmbientLightSensorReader

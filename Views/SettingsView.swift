@@ -95,7 +95,7 @@ struct SettingsView: View {
                         .padding(.top, 22)
                     
                     HStack(alignment: .firstTextBaseline) {
-                        Slider(value: $settings.darknessThresholdIntervalInSeconds, in: 15...600, step: 15)
+                        Slider(value: $settings.darknessThresholdIntervalInSeconds, in: 0...120, step: 1)
                         Text(settings.darknessThresholdIntervalInSeconds.formattedTime)
                             .font(.system(size: 12, weight: .medium).monospacedDigit())
                             .frame(width: 50, alignment: .trailing)
@@ -131,9 +131,7 @@ extension Double {
         NumberFormatter.noFractionDigits.string(from: NSNumber(value: self)) ?? "!!!"
     }
     var formattedTime: String {
-        let formatter = DateComponentsFormatter()
-        formatter.unitsStyle = .positional
-        return (formatter.string(from: self) ?? "!!!" ) + "s"
+        return "\(Int(self))s"
     }
     var formattedLongTime: String {
         let formatter = DateComponentsFormatter()

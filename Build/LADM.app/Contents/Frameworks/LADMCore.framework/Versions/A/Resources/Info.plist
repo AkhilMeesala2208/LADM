@@ -7,19 +7,15 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
-	<string>LADM</string>
-	<key>CFBundleIconFile</key>
-	<string>AppIcon</string>
-	<key>CFBundleIconName</key>
-	<string>AppIcon</string>
+	<string>LADMCore</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.akhilmeesala.LADM</string>
+	<string>com.akhilmeesala.LADMCore</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>LADM</string>
+	<string>LADMCore</string>
 	<key>CFBundlePackageType</key>
-	<string>APPL</string>
+	<string>FMWK</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.2</string>
 	<key>CFBundleSupportedPlatforms</key>
@@ -44,17 +40,7 @@
 	<string>2641</string>
 	<key>DTXcodeBuild</key>
 	<string>17E202</string>
-	<key>LSApplicationCategoryType</key>
-	<string>public.app-category.utilities</string>
 	<key>LSMinimumSystemVersion</key>
 	<string>12.0</string>
-	<key>LSUIElement</key>
-	<true/>
-	<key>NSAccentColorName</key>
-	<string>AccentColor</string>
-	<key>NSMainStoryboardFile</key>
-	<string>Main</string>
-	<key>NSPrincipalClass</key>
-	<string>NSApplication</string>
 </dict>
 </plist>
